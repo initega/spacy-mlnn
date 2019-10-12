@@ -21,8 +21,8 @@ do
     location="$(echo "$text" | awk "$awk_command")"
 
     if [ "$location" -ne 0 ]; then
-        begin="$(( $location - 1))"
-        end="$(( $location + $(echo "$2" | wc -c) ))"
+        begin="$(( $location - 2))"
+        end="$(( $begin + $(printf "$name" | wc -c) ))"
         coords="($begin, $end, \"$entity\")"
     fi
 
