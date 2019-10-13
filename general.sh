@@ -5,8 +5,9 @@ do
     # echo "$dir"
     for file in "$dir"/*
     do
-        entity="$dir"
+        entity="$(basename $dir)"
         word="$(basename "$file" .txt | tr '_' ' ')"
+        echo "// $word"
         sh text2traindata.sh "$file" "$word" "$entity"
     done
 done
