@@ -1,10 +1,16 @@
 #!/usr/bin/env sh
 
-[ -z "$1" -o -z "$2" -o -z "$3" ] && echo "Missing parameters" 1>&2 && exit 1
+[ -z "$1" -o -z "$2" ] && echo "Missing parameters" 1>&2 && exit 1
 
 file="$1" # Filename
-name="$2" # Name that will be identified with the next entity
-entity="$3" # Entity to associate words with
+if [ -z "$3" ]; then
+    name="$(basename "$file" .txt | tr '_' ' ')"
+    entity="$2"
+else
+    name="$2" # Name that will be identified with the next entity
+    entity="$3" # Entity to associate words with
+fi
+
 
 normalize(){
     awk '$0 != "" {printf "%s, ",$0} $0 == "" {printf "\n"}' $1 | \

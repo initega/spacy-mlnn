@@ -411,44 +411,45 @@
 # tensorflow
     (
         "I’m not saying that you don’t need to understand a bit of TensorFlow for certain applications.",
-        {"entities": []}
+        {"entities": [(58, 68, "MLS")]}
     ),
     (
-        "TensorFlow is an end-to-end open source platform for machine learning. It’s a comprehensive and flexible ecosystem of tools libraries and other resources that provide workflows with high-level APIs.",
-        {"entities": []}
+        "TensorFlow is an end-to-end open source platform for machine learning. It’s a comprehensive and flexible ecosystem of
+tools libraries and other resources that provide workflows with high-level APIs.",
+        {"entities": [(0, 10, "MLS")]}
     ),
     (
         "TensorFlow provides both high-level and low-level APIs.",
-        {"entities": []}
+        {"entities": [(0, 10, "MLS")]}
     ),
     (
         "Tensorflow’s eager execution allows for immediate iteration along with intuitive debugging.",
-        {"entities": []}
+        {"entities": [(0,10,"MLS")]}
     ),
     (
         "TensorFlow is designed for machine learning applications.",
-        {"entities": []}
+        {"entities": [(0, 10, "MLS")]}
     ),
 # Convolutional neural networks
     (
         "We trained a large deep convolutional neural network to classify the 1.3 million highresolution images in the LSVRC-2010 ImageNet training set into the 1000 different classes.",
-        {"entities": []}
+        {"entities": [(24,52,"NN")]}
     ),
     (
         "The ability to accurately represent sentences is central to language understanding. We describe a convolutional architecture dubbed the Dynamic Convolutional Neural Network (DCNN) that we adopt for the semantic modelling of sentences.",
-        {"entities": []}
+        {"entities": [(136, 172, "NN")]}
     ),
     (
         "We propose two efficient approximations to standard convolutional neural networks: BinaryWeight-Networks and XNOR-Networks.",
-        {"entities": []}
+        {"entities": [(52,81,"NN")]}
     ),
     (
         "Convolutional Neural Networks (CNNs) have been recently employed to solve problems from both the computer vision and medical image analysis fields.",
-        {"entities": []}
+        {"entities": [(0, 28, "NN")]}
     ),
     (
         "We present a fast fully parameterizable GPU implementation of Convolutional Neural Network variants.",
-        {"entities": []}
+        {"entities": [(62, 90, "NN")]}
     ),
 # boltzmann machine
     (
