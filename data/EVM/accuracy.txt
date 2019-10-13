@@ -3,6 +3,10 @@ If we have a separate test set, we can evaluate performance on this, in order to
 
 The accuracy of an MC approximation increases with sample size.
 
+Accuracy of Monte Carlo approximation
+
+where K is chosen based on some tradeoff between accuracy and complexity.
+
 In high dimensional problems, we might prefer a method that only depends on a subset of the features, for reasons of accuracy and interpretability.
 
 In machine learning, we often care more about predictive accuracy than in interpreting the
