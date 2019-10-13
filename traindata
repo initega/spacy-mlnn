@@ -414,8 +414,7 @@
         {"entities": [(58, 68, "MLS")]}
     ),
     (
-        "TensorFlow is an end-to-end open source platform for machine learning. It’s a comprehensive and flexible ecosystem of
-tools libraries and other resources that provide workflows with high-level APIs.",
+        "TensorFlow is an end-to-end open source platform for machine learning. It’s a comprehensive and flexible ecosystem of tools libraries and other resources that provide workflows with high-level APIs.",
         {"entities": [(0, 10, "MLS")]}
     ),
     (
@@ -454,48 +453,48 @@ tools libraries and other resources that provide workflows with high-level APIs.
 # boltzmann machine
     (
         "Part II addresses the problem of designing parallel annealing algorithms on the basis of Boltzmann machines.",
-        {"entities": []}
+        {"entities": [(89, 106, "NN")]}
     ),
     (
         "I present a mean-field theory for Boltzmann machine learning derived by employing Thouless-Anderson-Palmer free energy formalism to a full extent.",
-        {"entities": []}
+        {"entities": [(34, 51, "NN")]}
     ),
     (
         "We describe a model based on a Boltzmann machine with third-order connections that can learn how to accumulate information about a shape over several fixations.",
-        {"entities": []}
+        {"entities": [(31, 48, "NN")]}
     ),
     (
         "Inspired by the success of Boltzmann machines based on classical Boltzmann distribution.",
-        {"entities": []}
+        {"entities": [(27, 44, "NN")]}
     ),
     (
         "Paining a Boltzmann machine with hidden units is appropriately treated in information geometry using the information divergence and the technique of alternating minimization.",
-        {"entities": []}
+        {"entities": [(10, 27, "NN")]}
     ),
 # hopfield network
     (
         "The main application of Hopfield networks is as an associative memory or content addressable memory.",
-        {"entities": []}
+        {"entities": [(24, 40, "NN")]}
     ),
     (
         "A Hopfield network (Hopfield 1982) is a fully connected Ising model with a symmetric weight matrix W = W T .",
-        {"entities": []}
+        {"entities": [(2, 18, "NN")]}
     ),
     (
         "A large number of iterations and oscillations are those of the major concern in solving the economic load dispatch problem using the Hopfield neural network.",
-        {"entities": []}
+        {"entities": [(133, 156, "NN")]}
     ),
     (
         "This paper formulates and studies a model of delayed impulsive Hopfield neural networks.",
-        {"entities": []}
+        {"entities": [(63, 86, "NN")]}
     ),
     (
         "In this paper some novel criteria for the global robust stability of a class of interval Hopfield neural networks with constant delays are given.",
-        {"entities": []}
+        {"entities": [(89, 112, "NN")]}
     ),
     (
         "A modified Hopfield neural network model for regularized image restoration is presented.",
-        {"entities": []}
+        {"entities": [(11, 34, "NN")]}
     ),
 # perceptron
     (
@@ -516,28 +515,28 @@ tools libraries and other resources that provide workflows with high-level APIs.
     ),
     (
         "Perceptron training is widely applied in the natural language processing community for learning complex structured models.",
-        {"entities": []}
+        {"entities": [(0,10,"NN")]}
     ),
 # restricted boltzmann machine
     (
         "Recent developments have demonstrated the capacity of restricted Boltzmann machines (RBM) to be powerful generative models able to extract useful features from input data or construct deep artificial neural networks.",
-        {"entities": []}
+        {"entities": [(54, 82, "NN")]}
     ),
     (
         "The architecture is a continuous restricted Boltzmann machine with one step of Gibbs sampling to minimise contrastive divergence",
-        {"entities": []}
+        {"entities": [(33, 61, "NN")]}
     ),
     (
         "We introduce the spike and slab Restricted Boltzmann Machine characterized by having both a real-valued vector the slab and a binary variable the spike associated with each unit in the hidden layer.",
-        {"entities": []}
+        {"entities": [(32, 60, "NN")]}
     ),
     (
         "The restricted Boltzmann machine is a graphical model for binary random variables.",
-        {"entities": []}
+        {"entities": [(4, 32, "NN")]}
     ),
     (
         "Restricted Boltzmann Machine (RBM) has shown great effectiveness in document modeling.",
-        {"entities": []}
+        {"entities": [(0, 28, "NN")]}
     ),
 # beam search
     (
@@ -559,19 +558,19 @@ tools libraries and other resources that provide workflows with high-level APIs.
     ),
     (
         "The idea to construct and solve entirely polyhedral-based relaxations in the context of branch-and-bound for global optimization was first proposed and analyzed by Taw- armalani and Sahinidis.",
-        {"entities": []}
+        {"entities": [(88, 104, "OPM")]}
     ),
     (
         "The algorithm is of the branch-and-bound type and differs from previous interactive algorithms in several ways.",
-        {"entities": []}
+        {"entities": [(24, 40, "OPM")]}
     ),
     (
         "This paper investigates the influence of the interval subdivision selection rule on the convergence of interval branch-and-bound algorithms for global optimization.",
-        {"entities": []}
+        {"entities": [(112, 128, "OPM")]}
     ),
     (
         "A general branch-and-bound conceptual scheme for global optimization is presented that includes along with previous branch-and-bound approaches also grid-search techniques.",
-        {"entities": []}
+        {"entities": [(10, 26, "OPM")]}
     ),
 # gradient descent
     (
@@ -647,7 +646,7 @@ tools libraries and other resources that provide workflows with high-level APIs.
 # SVM
     (
         "In fact many popular machine learning methods — such as support vector machines.",
-        {"entities": []}
+        {"entities": [(56,63,"SML")]}
     ),
     (
         "Another very popular approach to creating a sparse kernel machine is to use a support vector machine or SVM.",
@@ -689,27 +688,27 @@ tools libraries and other resources that provide workflows with high-level APIs.
 # naive bayes
     (
         "However even if the naive Bayes assumption is not true it oftenresults in classifiers that work well",
-        {"entities": []}
+        {"entities": [(20, 31, "SML")]}
     ),
     (
         "We now discuss how to “train” a naive Bayes classifier.",
-        {"entities": []}
+        {"entities": [(32, 43, "SML")]}
     ),
     (
         "If the sample size N is very small which model (naive Bayes or full) is likely to give lower test set error and why?",
-        {"entities": []}
+        {"entities": [(48, 59, "SML")]}
     ),
     (
         "Hence in a naive Bayes classifier we can simply ignore missing features at test time.",
-        {"entities": []}
+        {"entities": [(11, 22, "SML")]}
     ),
     (
         "So observing a root node separates its children (as in a naive Bayes classifier.",
-        {"entities": []}
+        {"entities": [(57, 68, "SML")]}
     ),
     (
         "On the left we show a naive Bayes classifier that has been “unrolled” for D features.",
-        {"entities": []}
+        {"entities": [(22, 33, "SML")]}
     ),
 # random forest
     (
@@ -772,7 +771,7 @@ tools libraries and other resources that provide workflows with high-level APIs.
     ),
     (
         "Clustering is an unsupervised task that may not yield a representation that is useful for prediction.",
-        {"entities": []}
+        {"entities": [(0,10,"USML")]}
     ),
 # latent variable models
     (
@@ -785,11 +784,11 @@ tools libraries and other resources that provide workflows with high-level APIs.
     ),
     (
         "A topic model is a latent variable model for text documents and other forms of discrete data.",
-        {"entities": []}
+        {"entities": [(19, 40, "USML")]}
     ),
     (
         "If density estimation is our only goal it is worth considering whether it would be more appropriate to learn a latent variable model which can capture correlation between the visible variables via a set of latent common causes.",
-        {"entities": []}
+        {"entities": [(111, 132, "USML")]}
     ),
     (
         "In this chapter we are concerned with latent variable models for discrete data such as bit vectors sequences of categorical variables count vectors graph structures relational data etc.",

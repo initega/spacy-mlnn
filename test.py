@@ -454,6 +454,396 @@ TRAIN_DATA = [
         "spaCy is an open-source software library for advanced natural language processing.",
         {"entities": [(0, 5, "MLS")]}
     ),
+# tensorflow
+    (
+        "I’m not saying that you don’t need to understand a bit of TensorFlow for certain applications.",
+        {"entities": [(58, 68, "MLS")]}
+    ),
+    (
+        "TensorFlow is an end-to-end open source platform for machine learning. It’s a comprehensive and flexible ecosystem of tools libraries and other resources that provide workflows with high-level APIs.",
+        {"entities": [(0, 10, "MLS")]}
+    ),
+    (
+        "TensorFlow provides both high-level and low-level APIs.",
+        {"entities": [(0, 10, "MLS")]}
+    ),
+    (
+        "Tensorflow’s eager execution allows for immediate iteration along with intuitive debugging.",
+        {"entities": [(0,10,"MLS")]}
+    ),
+    (
+        "TensorFlow is designed for machine learning applications.",
+        {"entities": [(0, 10, "MLS")]}
+    ),
+# Convolutional neural networks
+    (
+        "We trained a large deep convolutional neural network to classify the 1.3 million highresolution images in the LSVRC-2010 ImageNet training set into the 1000 different classes.",
+        {"entities": [(24,52,"NN")]}
+    ),
+    (
+        "The ability to accurately represent sentences is central to language understanding. We describe a convolutional architecture dubbed the Dynamic Convolutional Neural Network (DCNN) that we adopt for the semantic modelling of sentences.",
+        {"entities": [(136, 172, "NN")]}
+    ),
+    (
+        "We propose two efficient approximations to standard convolutional neural networks: BinaryWeight-Networks and XNOR-Networks.",
+        {"entities": [(52,81,"NN")]}
+    ),
+    (
+        "Convolutional Neural Networks (CNNs) have been recently employed to solve problems from both the computer vision and medical image analysis fields.",
+        {"entities": [(0, 28, "NN")]}
+    ),
+    (
+        "We present a fast fully parameterizable GPU implementation of Convolutional Neural Network variants.",
+        {"entities": [(62, 90, "NN")]}
+    ),
+# boltzmann machine
+    (
+        "Part II addresses the problem of designing parallel annealing algorithms on the basis of Boltzmann machines.",
+        {"entities": [(89, 106, "NN")]}
+    ),
+    (
+        "I present a mean-field theory for Boltzmann machine learning derived by employing Thouless-Anderson-Palmer free energy formalism to a full extent.",
+        {"entities": [(34, 51, "NN")]}
+    ),
+    (
+        "We describe a model based on a Boltzmann machine with third-order connections that can learn how to accumulate information about a shape over several fixations.",
+        {"entities": [(31, 48, "NN")]}
+    ),
+    (
+        "Inspired by the success of Boltzmann machines based on classical Boltzmann distribution.",
+        {"entities": [(27, 44, "NN")]}
+    ),
+    (
+        "Paining a Boltzmann machine with hidden units is appropriately treated in information geometry using the information divergence and the technique of alternating minimization.",
+        {"entities": [(10, 27, "NN")]}
+    ),
+# hopfield network
+    (
+        "The main application of Hopfield networks is as an associative memory or content addressable memory.",
+        {"entities": [(24, 40, "NN")]}
+    ),
+    (
+        "A Hopfield network (Hopfield 1982) is a fully connected Ising model with a symmetric weight matrix W = W T .",
+        {"entities": [(2, 18, "NN")]}
+    ),
+    (
+        "A large number of iterations and oscillations are those of the major concern in solving the economic load dispatch problem using the Hopfield neural network.",
+        {"entities": [(133, 156, "NN")]}
+    ),
+    (
+        "This paper formulates and studies a model of delayed impulsive Hopfield neural networks.",
+        {"entities": [(63, 86, "NN")]}
+    ),
+    (
+        "In this paper some novel criteria for the global robust stability of a class of interval Hopfield neural networks with constant delays are given.",
+        {"entities": [(89, 112, "NN")]}
+    ),
+    (
+        "A modified Hopfield neural network model for regularized image restoration is presented.",
+        {"entities": [(11, 34, "NN")]}
+    ),
+# perceptron
+    (
+        "We introduced a multilayer perceptron neural network (MLPNN) based classification model as a diagnostic decision support mechanism in the epilepsy treatment.",
+        {"entities": [(27, 37, "NN")]}
+    ),
+    (
+        "This study compares the performance of multilayer perceptron neural networks.",
+        {"entities": [(50, 60, "NN")]}
+    ),
+    (
+        "It is found to relax exponentially towards the perceptron of optimal stability using the concept of adaptive learning.",
+        {"entities": [(47, 57, "NN")]}
+    ),
+    (
+        "The perceptron: a probabilistic model for information storage and organization in the brain.",
+        {"entities": [(4, 14, "NN")]}
+    ),
+    (
+        "Perceptron training is widely applied in the natural language processing community for learning complex structured models.",
+        {"entities": [(0,10,"NN")]}
+    ),
+# restricted boltzmann machine
+    (
+        "Recent developments have demonstrated the capacity of restricted Boltzmann machines (RBM) to be powerful generative models able to extract useful features from input data or construct deep artificial neural networks.",
+        {"entities": [(54, 82, "NN")]}
+    ),
+    (
+        "The architecture is a continuous restricted Boltzmann machine with one step of Gibbs sampling to minimise contrastive divergence",
+        {"entities": [(33, 61, "NN")]}
+    ),
+    (
+        "We introduce the spike and slab Restricted Boltzmann Machine characterized by having both a real-valued vector the slab and a binary variable the spike associated with each unit in the hidden layer.",
+        {"entities": [(32, 60, "NN")]}
+    ),
+    (
+        "The restricted Boltzmann machine is a graphical model for binary random variables.",
+        {"entities": [(4, 32, "NN")]}
+    ),
+    (
+        "Restricted Boltzmann Machine (RBM) has shown great effectiveness in document modeling.",
+        {"entities": [(0, 28, "NN")]}
+    ),
+# beam search
+    (
+        "In addition it uses a form of beam search to explore multiple paths through the lattice at once.",
+        {"entities": [(30, 41, "OPM")]}
+    ),
+    (
+        "A star search and beam search to quickly find an approximate MAP estimate.",
+        {"entities": [(18, 29, "OPM")]}
+    ),
+    (
+        "Mansinghka et al. 2007 discusses how to fit a DPMM online using particle filtering which is a like a stochastic version of beam search.",
+        {"entities": [(123, 134, "OPM")]}
+    ),
+# branch and bound
+    (
+        "A stochastic branch and bound method for solving stochastic global optimization problems is proposed.",
+        {"entities": [(13, 29, "OPM")]}
+    ),
+    (
+        "The idea to construct and solve entirely polyhedral-based relaxations in the context of branch-and-bound for global optimization was first proposed and analyzed by Taw- armalani and Sahinidis.",
+        {"entities": [(88, 104, "OPM")]}
+    ),
+    (
+        "The algorithm is of the branch-and-bound type and differs from previous interactive algorithms in several ways.",
+        {"entities": [(24, 40, "OPM")]}
+    ),
+    (
+        "This paper investigates the influence of the interval subdivision selection rule on the convergence of interval branch-and-bound algorithms for global optimization.",
+        {"entities": [(112, 128, "OPM")]}
+    ),
+    (
+        "A general branch-and-bound conceptual scheme for global optimization is presented that includes along with previous branch-and-bound approaches also grid-search techniques.",
+        {"entities": [(10, 26, "OPM")]}
+    ),
+# gradient descent
+    (
+        "Perhaps the simplest algorithm for unconstrained optimization is gradient descent also known as steepest descent.",
+        {"entities": [(65, 81, "OPM")]}
+    ),
+    (
+        "The main issue in gradient descent is: how should we set the step size?",
+        {"entities": [(18, 34, "OPM")]}
+    ),
+    (
+        "This can be used inside a (stochastic) gradient descent procedure discussed in Section 8.5.2.",
+        {"entities": [(39, 55, "OPM")]}
+    ),
+    (
+        "As it stands WARP loss is still hard to optimize but it can be further approximated by Monte Carlo sampling and then optimized by gradient descent as described.",
+        {"entities": [(130, 146, "OPM")]}
+    ),
+    (
+        "It is straightforward to derive a gradient descent algorithm to fit this model; however it is rather slow.",
+        {"entities": [(34, 50, "OPM")]}
+    ),
+    (
+        "Then sketch how to use projected gradient descent to solve this problem.",
+        {"entities": [(33, 49, "OPM")]}
+    ),
+    (
+        "Since the Netflix data is so large (about 100 million observed entries) it is common to use stochastic gradient descent (Section 8.5.2) for this task.",
+        {"entities": [(103, 119, "OPM")]}
+    ),
+# greedy search
+    (
+        "This is equivalent to performing a greedy search from the top of the lattice downwards.",
+        {"entities": [(35, 48, "OPM")]}
+    ),
+    (
+        "It is common to use greedy search to decide which variables to add.",
+        {"entities": [(20, 33, "OPM")]}
+    ),
+    (
+        "In practice greedy search techniques are used to find reasonable orderings (Kjaerulff 1990) although people have tried other heuristic methods for discrete optimization.",
+        {"entities": [(12, 25, "OPM")]}
+    ),
+    (
+        "An approximate method is to sample DAGs from the posterior and then to compute the fraction of times there is an s → t edge or path for each (s t) pair. The standard way to draw samples is to use the Metropolis Hastings algorithm (Section 24.3) where we use the same local proposal as we did in greedy search (Madigan and Raftery 1994).",
+        {"entities": [(295, 308, "OPM")]}
+    ),
+    (
+        "This precludes the kind of local search methods (both greedy search and MCMC sampling) we used to learn DAG structures.",
+        {"entities": [(54, 67, "OPM")]}
+    ),
+# CART
+    (
+        "This makes it clear that a CART model is just a an adaptive basis-function model.",
+        {"entities": [(27, 31, "SML")]}
+    ),
+    (
+        "CART models are popular for several reasons: they are easy to interpret 2  they can easily handle mixed discrete and continuous inputs.",
+        {"entities": [(0, 4, "SML")]}
+    ),
+    (
+        "However CART models also have some disadvantages.",
+        {"entities": [(8, 12, "SML")]}
+    ),
+    (
+        "“The HME approach is a promising competitor to CART trees”.",
+        {"entities": [(47, 51, "SML")]}
+    ),
+    (
+        "This weak learner can be any classification or regression algorithm but it is common to use a CART model.",
+        {"entities": [(94, 98, "SML")]}
+    ),
+# SVM
+    (
+        "In fact many popular machine learning methods — such as support vector machines.",
+        {"entities": [(56,63,"SML")]}
+    ),
+    (
+        "Another very popular approach to creating a sparse kernel machine is to use a support vector machine or SVM.",
+        {"entities": [(104, 107, "SML")]}
+    ),
+    (
+        "SVM regression with C = 1/λ chosen by cross validation.",
+        {"entities": [(0, 3, "SML")]}
+    ),
+    (
+        "This combination of the kernel trick plus a modified loss function is known as a support vector machine or SVM.",
+        {"entities": [(107, 110, "SML")]}
+    ),
+    (
+        "It is possible to obtain sparse probabilistic multi-class kernel-based classifiers which work as well or better than SVMs.",
+        {"entities": [(117, 120, "SML")]}
+    ),
+# decision tree
+    (
+        "Inputs in decision trees is to look for a series of ”backup” variables which can induce a similar partition to the chosen variable at any given split.",
+        {"entities": [(10, 23, "SML")]}
+    ),
+    (
+        "This can be thought of as a probabilistic decision tree of depth 2 since we recursively partition the space and apply a different expert to each partition.",
+        {"entities": [(42, 55, "SML")]}
+    ),
+    (
+        "By contrast in a standard decision tree predictions are made only based on the model in the corresponding leaf.",
+        {"entities": [(26, 39, "SML")]}
+    ),
+    (
+        "The standard heuristic for handling missing inputs in decision trees is to look for a series of ”backup” variables.",
+        {"entities": [(54, 67, "SML")]}
+    ),
+    (
+        "A simple decision tree for the data in Figure 1.1.",
+        {"entities": [(9, 22, "SML")]}
+    ),
+# naive bayes
+    (
+        "However even if the naive Bayes assumption is not true it oftenresults in classifiers that work well",
+        {"entities": [(20, 31, "SML")]}
+    ),
+    (
+        "We now discuss how to “train” a naive Bayes classifier.",
+        {"entities": [(32, 43, "SML")]}
+    ),
+    (
+        "If the sample size N is very small which model (naive Bayes or full) is likely to give lower test set error and why?",
+        {"entities": [(48, 59, "SML")]}
+    ),
+    (
+        "Hence in a naive Bayes classifier we can simply ignore missing features at test time.",
+        {"entities": [(11, 22, "SML")]}
+    ),
+    (
+        "So observing a root node separates its children (as in a naive Bayes classifier.",
+        {"entities": [(57, 68, "SML")]}
+    ),
+    (
+        "On the left we show a naive Bayes classifier that has been “unrolled” for D features.",
+        {"entities": [(22, 33, "SML")]}
+    ),
+# random forest
+    (
+        "The technique known as random forests (Breiman 2001a) tries to decorrelate the base learners by learning trees based on a randomly chosen subset of input variables as well as a randomly chosen subset of data cases.",
+        {"entities": [(23, 36, "SML")]}
+    ),
+    (
+        "Note that the cost of these sampling-based Bayesian methods is comparable to the sampling-based random forest method.",
+        {"entities": [(96, 109, "SML")]}
+    ),
+    (
+        "The second best method was random forests invented by Breiman.",
+        {"entities": [(27, 40, "SML")]}
+    ),
+    (
+        "In second place are either random forests or boosted MLPs depending on the preprocessing.",
+        {"entities": [(27, 40, "SML")]}
+    ),
+# KNN
+    (
+        "A simple example of a non-parametric classifier is the K nearest neighbor (KNN) classifier.",
+        {"entities": [(75, 78, "USML")]}
+    ),
+    (
+        "A KNN classifier with K = 1 induces a Voronoi tessellation of the points.",
+        {"entities": [(2, 5, "USML")]}
+    ),
+    (
+        "The KNN classifier is simple and can work quite well provided it is given a good distance metric and has enough labeled training data.",
+        {"entities": [(4, 7, "USML")]}
+    ),
+    (
+        "However the main problem with KNN classifiers is that they do not work well with high dimensional inputs.",
+        {"entities": [(30, 33, "USML")]}
+    ),
+    (
+        "Choosing K for a KNN classifier is a special case of a more general problem known as model selection.",
+        {"entities": [(17, 20, "USML")]}
+    ),
+# clustering
+    (
+        "In astronomy the autoclass system (Cheeseman et al. 1988) discovered a new type of star based on clustering astrophysical measurements.",
+        {"entities": [(97, 107, "USML")]}
+    ),
+    (
+        "This procedure is called soft clustering and is identical to the computations performed when using a generative classifier.",
+        {"entities": [(30, 40, "USML")]}
+    ),
+    (
+        "We can represent the amount of uncertainty in the cluster assignment by using 1 − max k r ik . Assuming this is small it may be reasonable to compute a hard clustering using the MAP estimate.",
+        {"entities": [(157, 167, "USML")]}
+    ),
+    (
+        "As an example of clustering binary data consider a binarized version of the MNIST handwritten digit dataset.",
+        {"entities": [(17, 27, "USML")]}
+    ),
+    (
+        "After 20 iterations the algorithm has converged on a good clustering.",
+        {"entities": [(58, 68, "USML")]}
+    ),
+    (
+        "Clustering is an unsupervised task that may not yield a representation that is useful for prediction.",
+        {"entities": [(0,10,"USML")]}
+    ),
+# latent variable models
+    (
+        "However in general interpreting latent variable models is fraught with difficulties as we discuss in Section 12.1.3.",
+        {"entities": [(32, 54, "USML")]}
+    ),
+    (
+        "Now consider latent variable models of the form z i → x i ← θ.",
+        {"entities": [(13, 35, "USML")]}
+    ),
+    (
+        "A topic model is a latent variable model for text documents and other forms of discrete data.",
+        {"entities": [(19, 40, "USML")]}
+    ),
+    (
+        "If density estimation is our only goal it is worth considering whether it would be more appropriate to learn a latent variable model which can capture correlation between the visible variables via a set of latent common causes.",
+        {"entities": [(111, 132, "USML")]}
+    ),
+    (
+        "In this chapter we are concerned with latent variable models for discrete data such as bit vectors sequences of categorical variables count vectors graph structures relational data etc.",
+        {"entities": [(38, 60, "USML")]}
+    ),
+    (
+        "Many of the models we have looked at in this book have a simple two-layer architecture of the form z → y for unsupervised latent variable models or x → y for supervised models.",
+        {"entities": [(122, 144, "USML")]}
+    ),
 ]
 
 
