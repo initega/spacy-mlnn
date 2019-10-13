@@ -107,6 +107,10 @@
         "When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.",
         {"entities": [(18, 23, "MLA")]}
     ),
+    (
+        "When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.",
+        {"entities": [(54, 59, "MLA")]}
+    ),
 # NLP
     (
         "NLP has been considered a subdiscipline of Artificial Intelligence.",
@@ -134,7 +138,7 @@
     ),
 # autonomous
     (
-        "Two branches of the trend towards" agents" that are gaining currency are interface agents software that actively assists a user in operating an interactive interface and autonomous agents software that takes action without user intervention and operates concurrently.",
+        "Two branches of the trend towards \"agents\" that are gaining currency are interface agents software that actively assists a user in operating an interactive interface and autonomous agents software that takes action without user intervention and operates concurrently.",
         {"entities": [(170, 180, "MLA")]}
     ),
     (
@@ -318,7 +322,7 @@
         {"entities": [(38,43,"MLS")]}
     ),
     (
-        "The caffe "tools/extra/parse_log.sh" file requires a small change to use on OS X.",
+        "The caffe \"tools/extra/parse_log.sh\" file requires a small change to use on OS X.",
         {"entities": [(4, 9, "MLS")]}
     ),
     (
