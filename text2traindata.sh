@@ -16,7 +16,7 @@ content="$(normalize "$file")"
 echo "$content" | while read -r line
 do
     awk_command="{print match(\$0, \"$name\")}"
-    line="$(echo "$line" | xargs)"
+    line="$(echo "$line" | xargs -0)"
     text="\"$line\""
 
     location="$(echo "$text" | awk "$awk_command")"
