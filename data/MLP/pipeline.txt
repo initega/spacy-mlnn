@@ -1,0 +1,15 @@
+
+This article reviews the evaluation and optimization of the preprocessing steps for blood-
+oxygenation-level-dependent (BOLD) functional magnetic resonance imaging (fMRI).
+
+However, there is little consensus on the optimal choice of data preprocessing steps to minimize these effects.
+
+It has been established thatthe chosen preprocessing steps (or “pipeline”) may significantly affect fMRI results.
+
+The automated analysis pipeline comprises data import, normalization, replica merging, quality
+diagnostics and data export. 
+
+The apparatus is formed as a pipeline having a translation and scaling section,
+
+To address these challenges, we developed an automated software pipeline, called
+Rnnotator.

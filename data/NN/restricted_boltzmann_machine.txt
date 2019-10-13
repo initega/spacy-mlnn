@@ -1,0 +1,15 @@
+
+Recent developments have demonstrated the capacity of restricted Boltzmann machines
+(RBM) to be powerful generative models, able to extract useful features from input data or
+construct deep artificial neural networks.
+
+The architecture is a continuous restricted Boltzmann machine, with one step of Gibbs sampling, to minimise contrastive divergence
+
+We introduce the spike and slab Restricted Boltzmann Machine, characterized by having
+both a real-valued vector, the slab, and a binary variable, the spike, associated with each
+unit in the hidden layer.
+
+The restricted Boltzmann machine is a graphical model for binary random variables.
+
+Restricted Boltzmann Machine (RBM) has shown great effectiveness in document
+modeling.

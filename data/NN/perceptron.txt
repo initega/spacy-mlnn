@@ -1,0 +1,12 @@
+
+We introduced a multilayer perceptron neural network (MLPNN) based classification model
+as a diagnostic decision support mechanism in the epilepsy treatment.
+
+This study compares the performance of multilayer perceptron neural networks.
+
+It is found to relax exponentially towards the perceptron of optimal stability using the concept of adaptive learning.
+
+The perceptron: a probabilistic model for information storage and organization in the brain.
+
+Perceptron training is widely applied in the natural language processing community for
+learning complex structured models.

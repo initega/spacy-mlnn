@@ -1,0 +1,12 @@
+
+Define your model using the easy to use interface of Keras.
+
+You can use the simple, intuitive API provided by Keras to create your models.
+
+The Keras API is modular, Pythonic, and super easy to use.
+
+If you’re comfortable writing code using pure Keras, go for it, and keep doing it.
+
+Using Keras in deep learning allows for easy and fast prototyping as well as running seamlessly on CPU and GPU. 
+
+The main advantages of Keras are described below.

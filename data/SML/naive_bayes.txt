@@ -1,0 +1,12 @@
+
+However, even if the naive Bayes assumption is not true, it oftenresults in classifiers that work well
+
+We now discuss how to “train” a naive Bayes classifier.
+
+If the sample size N is very small, which model (naive Bayes or full) is likely to give lower test set error, and why?
+
+Hence in a naive Bayes classifier, we can simply ignore missing features at test time.
+
+So observing a root node separates its children (as in a naive Bayes classifier.
+
+On the left we show a naive Bayes classifier that has been “unrolled” for D features.

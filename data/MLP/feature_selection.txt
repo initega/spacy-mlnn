@@ -1,0 +1,16 @@
+
+One common approach to tackling both of these problems is to perform feature selection, to
+remove “irrelevant” features that do not help much with the classification problem.
+
+We introduced the topic of feature selection in Section 3.5.4, where we discussed methods for
+finding input variables which had high mutual information with the output.
+
+Feature selection in this context is equivalent to selecting a subset of the training
+examples, which can help reduce overfitting and computational cost.
+
+Note that the topic of feature selection and sparsity is currently one of the most active areas
+of machine learning/ statistics.
+
+To improve computational and statistical performance, some feature selection was performed.
+
+We can create a challenging feature selection problem. In the experiments below, we add 5 extra dummy variables.

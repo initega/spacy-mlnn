@@ -1,0 +1,19 @@
+
+A simple but popular solution to this is to use cross validation (CV). The idea is simple: we
+split the training data into K folds; then, for each fold k ∈ {1, . . . , K}, we train on all the folds but the k’th, and test on the k’th, in a round-robin fashion,
+
+It is common to use K = 5; this is called 5-fold CV. If we set K = N , then we get a method
+called leave-one out cross validation, or LOOCV.
+
+We can use methods such as cross validation to empirically choose the best method
+for our particular problem.
+
+The principle problem with cross validation is that it is slow, since we have to fit the model
+multiple times.
+
+Use cross validation to choose the strength of the 2 regularizer.
+
+In supervised learning, we can always use cross validation to select between non-probabilistic
+models of different complexity, but this is not the case with unsupervised learning.
+
+This is likely to be much faster than cross validation, especially if we have many hyper-parameters (e.g., as in ARD).

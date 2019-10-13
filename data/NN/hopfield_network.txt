@@ -1,0 +1,15 @@
+
+The main application of Hopfield networks is as an associative memory or content ad-
+dressable memory.
+
+A Hopfield network (Hopfield 1982) is a fully connected Ising model with a symmetric weight
+matrix, W = W T .
+
+A large number of iterations and oscillations are those of the major concern in solving the
+economic load dispatch problem using the Hopfield neural network.
+
+This paper formulates and studies a model of delayed impulsive Hopfield neural networks.
+
+In this paper, some novel criteria for the global robust stability of a class of interval Hopfield neural networks with constant delays are given. 
+
+A modified Hopfield neural network model for regularized image restoration is presented.

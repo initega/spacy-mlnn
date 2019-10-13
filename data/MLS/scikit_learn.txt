@@ -1,0 +1,10 @@
+
+One of the best known is Scikit-Learn, a package that provides efficient versions of a large number of common algorithms.
+
+ A benefit of this uniformity is that once you understand the basic use and syntax of Scikit-Learn for one type of model, switching to a new model or algorithm is very straightforward.
+
+ The best way to think about data within Scikit-Learn is in terms of tables of data.
+
+ While some Scikit-Learn estimators do handle multiple target values in the form of a two-dimensional, [n_samples, n_targets] target array, we will primarily be working with the common case of a one-dimensional target array.
+
+  Many machine learning tasks can be expressed as sequences of more fundamental algorithms, and Scikit-Learn makes use of this wherever possible.

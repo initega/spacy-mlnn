@@ -1,0 +1,13 @@
+
+This is equivalent to performing a greedy search from the top of the lattice downwards.
+
+It is common to use greedy search to decide which variables to add.
+
+In practice greedy search techniques are used to find reasonable orderings (Kjaerulff 1990), although people have tried other heuristic methods for discrete optimization.
+
+An approximate method is to sample DAGs from the posterior, and then to compute the
+fraction of times there is an s → t edge or path for each (s, t) pair. The standard way to draw
+samples is to use the Metropolis Hastings algorithm (Section 24.3), where we use the same local
+proposal as we did in greedy search (Madigan and Raftery 1994).
+
+This precludes the kind of local search methods (both greedy search and MCMC sampling) we used to learn DAG structures.

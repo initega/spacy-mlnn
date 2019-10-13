@@ -1,0 +1,7 @@
+
+In addition, it uses a form of beam search to explore multiple
+paths through the lattice at once.
+
+A star search and beam search to quickly find an approximate MAP estimate.
+
+Mansinghka et al. 2007 discusses how to fit a DPMM online using particle filtering, which is a like a stochastic version of beam search.

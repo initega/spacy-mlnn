@@ -1,0 +1,11 @@
+
+The goal of imputation is to infer plausible values for the missing entries.
+
+An interesting example of an imputation-like task is known as image inpainting.
+
+Nevertheless, the method can sometimes give reasonable results if there is not much missing data, and it is a useful method for data imputation.
+
+As an example of this procedure in action, let us reconsider the imputation problem from
+Section 4.3.2.3, which had N = 100 10-dimensional data cases, with 50% missing data.
+
+Another interesting example of an imputation-like task is known as collaborative filtering.

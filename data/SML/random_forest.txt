@@ -1,0 +1,12 @@
+
+The technique known as random forests (Breiman 2001a) tries to decorrelate the base
+learners by learning trees based on a randomly chosen subset of input variables, as well as a
+randomly chosen subset of data cases.
+
+Note that the cost of these sampling-based Bayesian methods is comparable to the sampling-based random forest method.
+
+The second best method was random forests, invented by Breiman.
+
+In second place are either random forests or boosted MLPs, depending
+on the preprocessing.
+
