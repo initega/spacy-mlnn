@@ -52,6 +52,7 @@ from testdata import test_text
     new_model_name=("New model name for model meta.", "option", "nm", str),
     output_dir=("Optional output directory", "option", "o", Path),
     n_iter=("Number of training iterations", "option", "n", int),
+    no_train=("True if set", "flag", "nt"),
 )
 def main(model=None, new_model_name="animal", output_dir=None, n_iter=30,
          no_train=False):
@@ -76,7 +77,6 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30,
         ner.add_label(label)  # add new entity label to entity recognizer
     # Adding extraneous labels shouldn't mess anything up
 
-    no_train=True
     if no_train is False:
         if model is None:
             optimizer = nlp.begin_training()
