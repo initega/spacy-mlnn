@@ -36,7 +36,7 @@ from spacy.util import minibatch, compounding
 
 
 # new entity label
-LABELS = ["S ML alg", "US ML alg", "ML soft"]
+LABELS = ["EVM","MLA","MLP","MLS","NN","OPM","SML","USML"]
 
 # training data
 # Note: If you're using an existing model, make sure to mix in examples of
@@ -44,7 +44,7 @@ LABELS = ["S ML alg", "US ML alg", "ML soft"]
 # model might learn the new type, but "forget" what it previously knew.
 # https://explosion.ai/blog/pseudo-rehearsal-catastrophic-forgetting
 TRAIN_DATA = [
-// accuracy
+# accuracy
     (
         "If we have a separate test set we can evaluate performance on this in order to estimate the accuracy of our method.",
         {"entities": [(92, 100, "EVM")]}
@@ -65,7 +65,7 @@ TRAIN_DATA = [
         "However accuracy is not the only important factor when choosing a method.",
         {"entities": [(8, 16, "EVM")]}
     ),
-// cross validation
+# cross validation
     (
         "A simple but popular solution to this is to use cross validation (CV). The idea is simple: we split the training data into K folds; then for each fold k ∈ {1 . . .  K} we train on all the folds but the k’th and test on the k’th in a round-robin fashion",
         {"entities": [(48, 64, "EVM")]}
@@ -94,7 +94,7 @@ TRAIN_DATA = [
         "This is likely to be much faster than cross validation especially if we have many hyper-parameters (e.g. as in ARD).",
         {"entities": [(38, 54, "EVM")]}
     ),
-// likelihood
+# likelihood
     (
         "Use grid-search over a range of K’s using as an objective function cross-validated likelihood.",
         {"entities": [(83, 93, "EVM")]}
@@ -119,7 +119,7 @@ TRAIN_DATA = [
         "Nevertheless coordinate descent can be slow. An alternative method is to update all the parameters at once by simply following the gradient of the likelihood.",
         {"entities": [(147, 157, "EVM")]}
     ),
-// recall
+# recall
     (
         "From this table we can compute the true positive rate (TPR) also known as the sensitivity recall or hit rate.",
         {"entities": [(90, 96, "EVM")]}
@@ -136,7 +136,7 @@ TRAIN_DATA = [
         "The method had a precision of 66% when the recall was set to 10%; while low this is substantially more than rival variable-selection methods such as lasso and elastic net which were only slightly above chance.",
         {"entities": [(43, 49, "EVM")]}
     ),
-// Alexa
+# Alexa
     (
         "This week I read through a history of everything I've said to Alexa and it felt a little bit like reading an old diary.",
         {"entities": [(62, 67, "MLA")]}
@@ -153,7 +153,11 @@ TRAIN_DATA = [
         "When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.",
         {"entities": [(18, 23, "MLA")]}
     ),
-// NLP
+    (
+        "When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.",
+        {"entities": [(54, 59, "MLA")]}
+    ),
+# NLP
     (
         "NLP has been considered a subdiscipline of Artificial Intelligence.",
         {"entities": [(0, 3, "MLA")]}
@@ -178,9 +182,9 @@ TRAIN_DATA = [
         "However there are barriers that must be addressed by organizers to enable task-takers to isolate specific NLP subtasks for focused research.",
         {"entities": [(106, 109, "MLA")]}
     ),
-// autonomous
+# autonomous
     (
-        "Two branches of the trend towards" agents" that are gaining currency are interface agents software that actively assists a user in operating an interactive interface and autonomous agents software that takes action without user intervention and operates concurrently.",
+        "Two branches of the trend towards \"agents\" that are gaining currency are interface agents software that actively assists a user in operating an interactive interface and autonomous agents software that takes action without user intervention and operates concurrently.",
         {"entities": [(170, 180, "MLA")]}
     ),
     (
@@ -203,7 +207,7 @@ TRAIN_DATA = [
         "AAFID was the first architecture that proposed the use of autonomous agents for doing intrusion detection.",
         {"entities": [(58, 68, "MLA")]}
     ),
-// bioinformatics
+# bioinformatics
     (
         "This review article aims to provide an overview of the ways in which techniques from artificial intelligence can be usefully employed in bioinformatics both for modelling biological data and for making new discoveries.",
         {"entities": [(137, 151, "MLA")]}
@@ -224,7 +228,7 @@ TRAIN_DATA = [
         "It has a wide spectrum of applications such as natural language processing search engines medical diagnosis bioinformatics and more.",
         {"entities": [(108, 122, "MLA")]}
     ),
-// pattern recognition
+# pattern recognition
     (
         "This paper presents an electromyographic (EMG) pattern recognition method to identify motion commands for the control of a prosthetic arm by evidence accumulation based on artificial intelligence with multiple parameters.",
         {"entities": [(47, 66, "MLA")]}
@@ -245,7 +249,7 @@ TRAIN_DATA = [
         "However my focus will not be on these types of pattern-recognition problems.",
         {"entities": [(47,66, "MLA")]}
     ),
-// recomendations
+# recomendations
     (
         "The avatar searches available information and makes recommendations to the user based on data.",
         {"entities": [(52,67,"MLA")]}
@@ -258,7 +262,7 @@ TRAIN_DATA = [
         "A learning method was employed for Web pages recommendations and book recommendations in Mooney.",
         {"entities": [(45,60,"MLA")]}
     ),
-// feature selection
+# feature selection
     (
         "One common approach to tackling both of these problems is to perform feature selection to remove “irrelevant” features that do not help much with the classification problem.",
         {"entities": [(69, 86, "MLP")]}
@@ -283,7 +287,7 @@ TRAIN_DATA = [
         "We can create a challenging feature selection problem. In the experiments below we add 5 extra dummy variables.",
         {"entities": [(28, 45, "MLP")]}
     ),
-// imputation
+# imputation
     (
         "The goal of imputation is to infer plausible values for the missing entries.",
         {"entities": [(12, 22, "MLP")]}
@@ -304,7 +308,7 @@ TRAIN_DATA = [
         "Another interesting example of an imputation-like task is known as collaborative filtering.",
         {"entities": [(34, 44, "MLP")]}
     ),
-// normalization
+# normalization
     (
         "The first term is just the normalization constant required to ensure the distribution sums to 1.",
         {"entities": [(27, 40, "MLP")]}
@@ -329,7 +333,7 @@ TRAIN_DATA = [
         "Hence satsifying normalization and local consistency is enough to define a valid distribution for any tree. Hence μ ∈ M(T ) as well.",
         {"entities": [(17, 30, "MLP")]}
     ),
-// pipeline
+# pipeline
     (
         "This article reviews the evaluation and optimization of the preprocessing steps for bloodoxygenation-level-dependent (BOLD) functional magnetic resonance imaging (fMRI).",
         {"entities": []}
@@ -354,7 +358,7 @@ TRAIN_DATA = [
         "To address these challenges we developed an automated software pipeline called Rnnotator.",
         {"entities": [(63, 71, "MLP")]}
     ),
-// caffe
+# caffe
     (
         "We will use some Python code and a popular open source deep learning framework called Caffe to build the classifier.",
         {"entities": [(86,91,"MLS")]}
@@ -364,7 +368,7 @@ TRAIN_DATA = [
         {"entities": [(38,43,"MLS")]}
     ),
     (
-        "The caffe "tools/extra/parse_log.sh" file requires a small change to use on OS X.",
+        "The caffe \"tools/extra/parse_log.sh\" file requires a small change to use on OS X.",
         {"entities": [(4, 9, "MLS")]}
     ),
     (
@@ -383,7 +387,7 @@ TRAIN_DATA = [
         "The feature iter_size is a Caffe function per se but you are correct that it is an option that you set in the solver protobuf file.",
         {"entities": [(27, 32, "MLS")]}
     ),
-// keras
+# keras
     (
         "Define your model using the easy to use interface of Keras.",
         {"entities": [(53, 58, "MLS")]}
@@ -408,7 +412,7 @@ TRAIN_DATA = [
         "The main advantages of Keras are described below.",
         {"entities": [(23, 28, "MLS")]}
     ),
-// scikit learn
+# scikit learn
     (
         "One of the best known is Scikit-Learn a package that provides efficient versions of a large number of common algorithms.",
         {"entities": [(25, 37, "MLS")]}
@@ -429,7 +433,7 @@ TRAIN_DATA = [
         "Many machine learning tasks can be expressed as sequences of more fundamental algorithms and Scikit-Learn makes use of this wherever possible.",
         {"entities": [(93, 105, "MLS")]}
     ),
-// spacy
+# spacy
     (
         "spaCy excels at large-scale information extraction tasks.",
         {"entities": [(0, 5, "MLS")]}
@@ -501,7 +505,8 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
             print("Losses", losses)
 
     # test the trained model
-    test_text = "Do you like horses the way Joe does?"
+    test_text = "The accuracy of Alexa is pretty damn good!. Make me a coffee \
+Alexa."
     doc = nlp(test_text)
     print("Entities in '%s'" % test_text)
     for ent in doc.ents:

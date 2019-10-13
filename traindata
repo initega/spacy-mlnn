@@ -1,4 +1,4 @@
-// accuracy
+# accuracy
     (
         "If we have a separate test set we can evaluate performance on this in order to estimate the accuracy of our method.",
         {"entities": [(92, 100, "EVM")]}
@@ -19,7 +19,7 @@
         "However accuracy is not the only important factor when choosing a method.",
         {"entities": [(8, 16, "EVM")]}
     ),
-// cross validation
+# cross validation
     (
         "A simple but popular solution to this is to use cross validation (CV). The idea is simple: we split the training data into K folds; then for each fold k ∈ {1 . . .  K} we train on all the folds but the k’th and test on the k’th in a round-robin fashion",
         {"entities": [(48, 64, "EVM")]}
@@ -48,7 +48,7 @@
         "This is likely to be much faster than cross validation especially if we have many hyper-parameters (e.g. as in ARD).",
         {"entities": [(38, 54, "EVM")]}
     ),
-// likelihood
+# likelihood
     (
         "Use grid-search over a range of K’s using as an objective function cross-validated likelihood.",
         {"entities": [(83, 93, "EVM")]}
@@ -73,7 +73,7 @@
         "Nevertheless coordinate descent can be slow. An alternative method is to update all the parameters at once by simply following the gradient of the likelihood.",
         {"entities": [(147, 157, "EVM")]}
     ),
-// recall
+# recall
     (
         "From this table we can compute the true positive rate (TPR) also known as the sensitivity recall or hit rate.",
         {"entities": [(90, 96, "EVM")]}
@@ -90,7 +90,7 @@
         "The method had a precision of 66% when the recall was set to 10%; while low this is substantially more than rival variable-selection methods such as lasso and elastic net which were only slightly above chance.",
         {"entities": [(43, 49, "EVM")]}
     ),
-// Alexa
+# Alexa
     (
         "This week I read through a history of everything I've said to Alexa and it felt a little bit like reading an old diary.",
         {"entities": [(62, 67, "MLA")]}
@@ -107,7 +107,7 @@
         "When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.",
         {"entities": [(18, 23, "MLA")]}
     ),
-// NLP
+# NLP
     (
         "NLP has been considered a subdiscipline of Artificial Intelligence.",
         {"entities": [(0, 3, "MLA")]}
@@ -132,7 +132,7 @@
         "However there are barriers that must be addressed by organizers to enable task-takers to isolate specific NLP subtasks for focused research.",
         {"entities": [(106, 109, "MLA")]}
     ),
-// autonomous
+# autonomous
     (
         "Two branches of the trend towards" agents" that are gaining currency are interface agents software that actively assists a user in operating an interactive interface and autonomous agents software that takes action without user intervention and operates concurrently.",
         {"entities": [(170, 180, "MLA")]}
@@ -157,7 +157,7 @@
         "AAFID was the first architecture that proposed the use of autonomous agents for doing intrusion detection.",
         {"entities": [(58, 68, "MLA")]}
     ),
-// bioinformatics
+# bioinformatics
     (
         "This review article aims to provide an overview of the ways in which techniques from artificial intelligence can be usefully employed in bioinformatics both for modelling biological data and for making new discoveries.",
         {"entities": [(137, 151, "MLA")]}
@@ -178,7 +178,7 @@
         "It has a wide spectrum of applications such as natural language processing search engines medical diagnosis bioinformatics and more.",
         {"entities": [(108, 122, "MLA")]}
     ),
-// pattern recognition
+# pattern recognition
     (
         "This paper presents an electromyographic (EMG) pattern recognition method to identify motion commands for the control of a prosthetic arm by evidence accumulation based on artificial intelligence with multiple parameters.",
         {"entities": [(47, 66, "MLA")]}
@@ -199,7 +199,7 @@
         "However my focus will not be on these types of pattern-recognition problems.",
         {"entities": [(47,66, "MLA")]}
     ),
-// recomendations
+# recomendations
     (
         "The avatar searches available information and makes recommendations to the user based on data.",
         {"entities": [(52,67,"MLA")]}
@@ -212,7 +212,7 @@
         "A learning method was employed for Web pages recommendations and book recommendations in Mooney.",
         {"entities": [(45,60,"MLA")]}
     ),
-// feature selection
+# feature selection
     (
         "One common approach to tackling both of these problems is to perform feature selection to remove “irrelevant” features that do not help much with the classification problem.",
         {"entities": [(69, 86, "MLP")]}
@@ -237,7 +237,7 @@
         "We can create a challenging feature selection problem. In the experiments below we add 5 extra dummy variables.",
         {"entities": [(28, 45, "MLP")]}
     ),
-// imputation
+# imputation
     (
         "The goal of imputation is to infer plausible values for the missing entries.",
         {"entities": [(12, 22, "MLP")]}
@@ -258,7 +258,7 @@
         "Another interesting example of an imputation-like task is known as collaborative filtering.",
         {"entities": [(34, 44, "MLP")]}
     ),
-// normalization
+# normalization
     (
         "The first term is just the normalization constant required to ensure the distribution sums to 1.",
         {"entities": [(27, 40, "MLP")]}
@@ -283,7 +283,7 @@
         "Hence satsifying normalization and local consistency is enough to define a valid distribution for any tree. Hence μ ∈ M(T ) as well.",
         {"entities": [(17, 30, "MLP")]}
     ),
-// pipeline
+# pipeline
     (
         "This article reviews the evaluation and optimization of the preprocessing steps for bloodoxygenation-level-dependent (BOLD) functional magnetic resonance imaging (fMRI).",
         {"entities": []}
@@ -308,7 +308,7 @@
         "To address these challenges we developed an automated software pipeline called Rnnotator.",
         {"entities": [(63, 71, "MLP")]}
     ),
-// caffe
+# caffe
     (
         "We will use some Python code and a popular open source deep learning framework called Caffe to build the classifier.",
         {"entities": [(86,91,"MLS")]}
@@ -337,7 +337,7 @@
         "The feature iter_size is a Caffe function per se but you are correct that it is an option that you set in the solver protobuf file.",
         {"entities": [(27, 32, "MLS")]}
     ),
-// keras
+# keras
     (
         "Define your model using the easy to use interface of Keras.",
         {"entities": [(53, 58, "MLS")]}
@@ -362,7 +362,7 @@
         "The main advantages of Keras are described below.",
         {"entities": [(23, 28, "MLS")]}
     ),
-// scikit learn
+# scikit learn
     (
         "One of the best known is Scikit-Learn a package that provides efficient versions of a large number of common algorithms.",
         {"entities": [(25, 37, "MLS")]}
@@ -383,7 +383,7 @@
         "Many machine learning tasks can be expressed as sequences of more fundamental algorithms and Scikit-Learn makes use of this wherever possible.",
         {"entities": [(93, 105, "MLS")]}
     ),
-// spacy
+# spacy
     (
         "spaCy excels at large-scale information extraction tasks.",
         {"entities": [(0, 5, "MLS")]}
@@ -404,7 +404,7 @@
         "spaCy is an open-source software library for advanced natural language processing.",
         {"entities": [(0, 5, "MLS")]}
     ),
-// tensorflow
+# tensorflow
     (
         "I’m not saying that you don’t need to understand a bit of TensorFlow for certain applications.",
         {"entities": []}
@@ -425,7 +425,7 @@
         "TensorFlow is designed for machine learning applications.",
         {"entities": []}
     ),
-// Convolutional neural networks
+# Convolutional neural networks
     (
         "We trained a large deep convolutional neural network to classify the 1.3 million highresolution images in the LSVRC-2010 ImageNet training set into the 1000 different classes.",
         {"entities": []}
@@ -446,7 +446,7 @@
         "We present a fast fully parameterizable GPU implementation of Convolutional Neural Network variants.",
         {"entities": []}
     ),
-// boltzmann machine
+# boltzmann machine
     (
         "Part II addresses the problem of designing parallel annealing algorithms on the basis of Boltzmann machines.",
         {"entities": []}
@@ -467,7 +467,7 @@
         "Paining a Boltzmann machine with hidden units is appropriately treated in information geometry using the information divergence and the technique of alternating minimization.",
         {"entities": []}
     ),
-// hopfield network
+# hopfield network
     (
         "The main application of Hopfield networks is as an associative memory or content addressable memory.",
         {"entities": []}
@@ -492,7 +492,7 @@
         "A modified Hopfield neural network model for regularized image restoration is presented.",
         {"entities": []}
     ),
-// perceptron
+# perceptron
     (
         "We introduced a multilayer perceptron neural network (MLPNN) based classification model as a diagnostic decision support mechanism in the epilepsy treatment.",
         {"entities": [(27, 37, "NN")]}
@@ -513,7 +513,7 @@
         "Perceptron training is widely applied in the natural language processing community for learning complex structured models.",
         {"entities": []}
     ),
-// restricted boltzmann machine
+# restricted boltzmann machine
     (
         "Recent developments have demonstrated the capacity of restricted Boltzmann machines (RBM) to be powerful generative models able to extract useful features from input data or construct deep artificial neural networks.",
         {"entities": []}
@@ -534,7 +534,7 @@
         "Restricted Boltzmann Machine (RBM) has shown great effectiveness in document modeling.",
         {"entities": []}
     ),
-// beam search
+# beam search
     (
         "In addition it uses a form of beam search to explore multiple paths through the lattice at once.",
         {"entities": [(30, 41, "OPM")]}
@@ -547,7 +547,7 @@
         "Mansinghka et al. 2007 discusses how to fit a DPMM online using particle filtering which is a like a stochastic version of beam search.",
         {"entities": [(123, 134, "OPM")]}
     ),
-// branch and bound
+# branch and bound
     (
         "A stochastic branch and bound method for solving stochastic global optimization problems is proposed.",
         {"entities": [(13, 29, "OPM")]}
@@ -568,7 +568,7 @@
         "A general branch-and-bound conceptual scheme for global optimization is presented that includes along with previous branch-and-bound approaches also grid-search techniques.",
         {"entities": []}
     ),
-// gradient descent
+# gradient descent
     (
         "Perhaps the simplest algorithm for unconstrained optimization is gradient descent also known as steepest descent.",
         {"entities": [(65, 81, "OPM")]}
@@ -597,7 +597,7 @@
         "Since the Netflix data is so large (about 100 million observed entries) it is common to use stochastic gradient descent (Section 8.5.2) for this task.",
         {"entities": [(103, 119, "OPM")]}
     ),
-// greedy search
+# greedy search
     (
         "This is equivalent to performing a greedy search from the top of the lattice downwards.",
         {"entities": [(35, 48, "OPM")]}
@@ -618,7 +618,7 @@
         "This precludes the kind of local search methods (both greedy search and MCMC sampling) we used to learn DAG structures.",
         {"entities": [(54, 67, "OPM")]}
     ),
-// CART
+# CART
     (
         "This makes it clear that a CART model is just a an adaptive basis-function model.",
         {"entities": [(27, 31, "SML")]}
@@ -639,7 +639,7 @@
         "This weak learner can be any classification or regression algorithm but it is common to use a CART model.",
         {"entities": [(94, 98, "SML")]}
     ),
-// SVM
+# SVM
     (
         "In fact many popular machine learning methods — such as support vector machines.",
         {"entities": []}
@@ -660,7 +660,7 @@
         "It is possible to obtain sparse probabilistic multi-class kernel-based classifiers which work as well or better than SVMs.",
         {"entities": [(117, 120, "SML")]}
     ),
-// decision tree
+# decision tree
     (
         "Inputs in decision trees is to look for a series of ”backup” variables which can induce a similar partition to the chosen variable at any given split.",
         {"entities": [(10, 23, "SML")]}
@@ -681,7 +681,7 @@
         "A simple decision tree for the data in Figure 1.1.",
         {"entities": [(9, 22, "SML")]}
     ),
-// naive bayes
+# naive bayes
     (
         "However even if the naive Bayes assumption is not true it oftenresults in classifiers that work well",
         {"entities": []}
@@ -706,7 +706,7 @@
         "On the left we show a naive Bayes classifier that has been “unrolled” for D features.",
         {"entities": []}
     ),
-// random forest
+# random forest
     (
         "The technique known as random forests (Breiman 2001a) tries to decorrelate the base learners by learning trees based on a randomly chosen subset of input variables as well as a randomly chosen subset of data cases.",
         {"entities": [(23, 36, "SML")]}
@@ -723,7 +723,7 @@
         "In second place are either random forests or boosted MLPs depending on the preprocessing.",
         {"entities": [(27, 40, "SML")]}
     ),
-// KNN
+# KNN
     (
         "A simple example of a non-parametric classifier is the K nearest neighbor (KNN) classifier.",
         {"entities": [(75, 78, "USML")]}
@@ -744,7 +744,7 @@
         "Choosing K for a KNN classifier is a special case of a more general problem known as model selection.",
         {"entities": [(17, 20, "USML")]}
     ),
-// clustering
+# clustering
     (
         "In astronomy the autoclass system (Cheeseman et al. 1988) discovered a new type of star based on clustering astrophysical measurements.",
         {"entities": [(97, 107, "USML")]}
@@ -769,7 +769,7 @@
         "Clustering is an unsupervised task that may not yield a representation that is useful for prediction.",
         {"entities": []}
     ),
-// latent variable models
+# latent variable models
     (
         "However in general interpreting latent variable models is fraught with difficulties as we discuss in Section 12.1.3.",
         {"entities": [(32, 54, "USML")]}

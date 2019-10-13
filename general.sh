@@ -7,7 +7,7 @@ do
     do
         entity="$(basename $dir)"
         word="$(basename "$file" .txt | tr '_' ' ')"
-        echo "// $word"
+        echo "# $word"
         sh text2traindata.sh "$file" "$word" "$entity"
     done
 done
