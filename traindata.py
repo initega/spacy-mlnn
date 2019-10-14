@@ -225,7 +225,7 @@ TRAIN_DATA = [
     ),
     (
         "It has a wide spectrum of applications such as natural language processing search engines medical diagnosis bioinformatics and more.",
-        {"entities": [(108, 122, "MLA")]}
+        {"entities": [(108, 122, "MLA"),(47,74,"MLA")]}
     ),
     (
         "Clustering the rows and columns is known as biclustering or coclustering. This is widely used in bioinformatics, where the rows often represent genes and the columns represent conditions.",
@@ -499,7 +499,7 @@ TRAIN_DATA = [
     ),
     (
         "spaCy is an open-source software library for advanced natural language processing.",
-        {"entities": [(0, 5, "MLS")]}
+        {"entities": [(0, 5, "MLS"),(54,81,"MLA")]}
     ),
     (
         "spaCy excels at large-scale information extraction tasks.",
@@ -644,7 +644,7 @@ TRAIN_DATA = [
     ),
     (
         "Perceptron training is widely applied in the natural language processing community for learning complex structured models.",
-        {"entities": [(0,10,"NN")]}
+        {"entities": [(0,10,"NN"),(45,72,"MLA")]}
     ),
     (
         "Rosenblatt made statements about the perceptron that caused a heated controversy among the fledgling AI community",

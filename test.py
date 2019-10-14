@@ -33,6 +33,7 @@ import random
 from pathlib import Path
 import spacy
 from spacy.util import minibatch, compounding
+from spacy import displacy
 
 
 # new entity label
@@ -54,8 +55,9 @@ from testdata import test_text
     n_iter=("Number of training iterations", "option", "n", int),
     no_train=("True if set", "flag", "nt"),
 )
-def main(model=None, new_model_name="animal", output_dir=None, n_iter=30,
-         no_train=False):
+def main(model=None, new_model_name="machine_learning", output_dir=None,
+         n_iter=30, no_train=False):
+    # n_iter=int(len(TRAIN_DATA)/4)+1
     """Set up the pipeline and entity recognizer, and train the new entity."""
     random.seed(0)
     if model is not None:
@@ -102,6 +104,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30,
     print("Entities in '%s'" % test_text)
     for ent in doc.ents:
         print(ent.label_, ent.text)
+    displacy.serve(doc, style="ent")
 
     # save model to output directory
     if output_dir is not None:
