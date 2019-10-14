@@ -3042,5 +3042,20 @@
   "Tree",
   "Define",
   "efficiently",
-  "setting"
+  "setting",
+  "Linear",
+  "linear",
+  "Logistic",
+  "logistic",
+  "Naive",
+  "kNN",
+  "Means",
+  "means",
+  "ans",
+  "Forest",
+  "Dimensionality",
+  "dimensionality",
+  "Reduction",
+  "reduction",
+  "Algorithms"
 ]
