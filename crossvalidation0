@@ -1,0 +1,638 @@
+Created blank 'en' model
+Losses {'ner': 596.7490730564452}
+Losses {'ner': 558.2196515637862}
+Losses {'ner': 507.014934380841}
+Losses {'ner': 431.556004009788}
+Losses {'ner': 439.48825959759495}
+Losses {'ner': 349.1619119075624}
+Losses {'ner': 364.6819057415224}
+Losses {'ner': 259.01627470565893}
+Losses {'ner': 189.51766477513246}
+Losses {'ner': 230.48391700922846}
+Losses {'ner': 163.72078972350107}
+Losses {'ner': 131.50344016778578}
+Losses {'ner': 177.4131027967529}
+Losses {'ner': 182.36963294780233}
+Losses {'ner': 113.07157116781393}
+Losses {'ner': 109.67684614631075}
+Losses {'ner': 99.13470609727031}
+Losses {'ner': 111.0707679042517}
+Losses {'ner': 106.00195275624566}
+Losses {'ner': 85.10666399021262}
+Losses {'ner': 70.44825308445017}
+Losses {'ner': 72.76064388291117}
+Losses {'ner': 71.37970805375966}
+Losses {'ner': 77.92275865219082}
+Losses {'ner': 68.6297220010702}
+Losses {'ner': 56.333529703774225}
+Losses {'ner': 49.97016827310237}
+Losses {'ner': 42.91615075173562}
+Losses {'ner': 39.76051370389529}
+Losses {'ner': 43.4827214645149}
+Entities in 'If we have a separate test set we can evaluate performance on this in order to estimate the accuracy of our method.
+A simple but popular solution to this is to use cross validation (CV). The idea is simple: we split the training data into K folds; then for each fold k ∈ {1 . . .  K} we train on all the folds but the k’th and test on the k’th in a round-robin fashion
+Use grid-search over a range of K’s using as an objective function cross-validated likelihood.
+From this table we can compute the true positive rate (TPR) also known as the sensitivity, recall or hit rate.
+This week I read through a history of everything I've said to Alexa and it felt a little bit like reading an old diary.
+NLP has been considered a subdiscipline of Artificial Intelligence.
+Two branches of the trend towards "agents" that are gaining currency are interface agents software that actively assists a user in operating an interactive interface and autonomous agents software that takes action without user intervention and operates concurrently.
+This review article aims to provide an overview of the ways in which techniques from artificial intelligence can be usefully employed in bioinformatics both for modelling biological data and for making new discoveries.
+This paper presents an electromyographic (EMG) pattern recognition method to identify motion commands for the control of a prosthetic arm by evidence accumulation based on artificial intelligence with multiple parameters.
+One common approach to tackling both of these problems is to perform feature selection to remove “irrelevant” features that do not help much with the classification problem.
+The goal of imputation is to infer plausible values for the missing entries.
+The first term is just the normalization constant required to ensure the distribution sums to 1.
+This article reviews the evaluation and optimization of the preprocessing steps for bloodoxygenation-level-dependent (BOLD) functional magnetic resonance imaging (fMRI).
+We will use some Python code and a popular open source deep learning framework called Caffe to build the classifier.
+Define your model using the easy to use interface of Keras.
+One of the best known is Scikit-Learn a package that provides efficient versions of a large number of common algorithms.
+spaCy excels at large-scale information extraction tasks.
+I’m not saying that you don’t need to understand a bit of TensorFlow for certain applications.
+We trained a large deep convolutional neural network to classify the 1.3 million highresolution images in the LSVRC-2010 ImageNet training set into the 1000 different classes.
+Part II addresses the problem of designing parallel annealing algorithms on the basis of Boltzmann machines.
+The main application of Hopfield networks is as an associative memory or content addressable memory.
+We introduced a multilayer perceptron neural network (MLPNN) based classification model as a diagnostic decision support mechanism in the epilepsy treatment.
+Recent developments have demonstrated the capacity of restricted Boltzmann machines (RBM) to be powerful generative models able to extract useful features from input data or construct deep artificial neural networks.
+In addition it uses a form of beam search to explore multiple paths through the lattice at once.
+A stochastic branch and bound method for solving stochastic global optimization problems is proposed.
+Perhaps the simplest algorithm for unconstrained optimization is gradient descent also known as steepest descent.
+This is equivalent to performing a greedy search from the top of the lattice downwards.
+This makes it clear that a CART model is just a an adaptive basis-function model.
+In fact many popular machine learning methods — such as support vector machines.
+Inputs in decision trees is to look for a series of ”backup” variables which can induce a similar partition to the chosen variable at any given split.
+However even if the naive Bayes assumption is not true it oftenresults in classifiers that work well
+The technique known as random forests (Breiman 2001a) tries to decorrelate the base learners by learning trees based on a randomly chosen subset of input variables as well as a randomly chosen subset of data cases.
+A simple example of a non-parametric classifier is the K nearest neighbor (KNN) classifier.
+In astronomy the autoclass system (Cheeseman et al. 1988) discovered a new type of star based on clustering astrophysical measurements.
+However in general interpreting latent variable models is fraught with difficulties as we discuss in Section 12.1.3.'
+EVM accuracy
+EVM cross validation
+EVM CV
+OPM cross
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA NLP
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP imputation
+MLS Caffe
+OPM Keras
+OPM Scikit
+OPM Learn
+MLS spaCy
+NN Boltzmann machines
+NN perceptron
+NN restricted Boltzmann machines
+NN RBM
+OPM beam search
+OPM greedy search
+OPM CART
+OPM KNN
+USML latent variable models
+---------------------------------------------------
+Created blank 'en' model
+Losses {'ner': 601.9660673416197}
+Losses {'ner': 438.68390689874724}
+Losses {'ner': 443.64529846032235}
+Losses {'ner': 554.9723515200886}
+Losses {'ner': 357.50556599735273}
+Losses {'ner': 294.89389126736654}
+Losses {'ner': 299.91255331208566}
+Losses {'ner': 199.28023066959082}
+Losses {'ner': 195.889540577957}
+Losses {'ner': 140.10608033478562}
+Losses {'ner': 173.82286420817945}
+Losses {'ner': 160.73465469953604}
+Losses {'ner': 136.54673242603357}
+Losses {'ner': 124.64305069816405}
+Losses {'ner': 117.50687793795083}
+Losses {'ner': 89.89611897016717}
+Losses {'ner': 61.14962137785425}
+Losses {'ner': 116.98342117544327}
+Losses {'ner': 68.38595828141587}
+Losses {'ner': 87.00044839802698}
+Losses {'ner': 103.14040527225599}
+Losses {'ner': 70.77688593071915}
+Losses {'ner': 63.86057441189856}
+Losses {'ner': 65.33552450547836}
+Losses {'ner': 60.845632604647015}
+Losses {'ner': 66.12072027382591}
+Losses {'ner': 55.48643114548195}
+Losses {'ner': 58.99379693147381}
+Losses {'ner': 34.75989082767362}
+Losses {'ner': 39.527095138185274}
+Entities in 'The accuracy of an MC approximation increases with sample size.
+It is common to use K = 5; this is called 5-fold CV. If we set K = N  then we get a method called leave-one out cross validation or LOOCV.
+That is they can use likelihood models of the form p(x t:t+l |z t = k d t = l) which generate l correlated observations if the duration in state k is for l time steps.
+For a ﬁxed threshold, one can compute a single precision and recall value.
+There are more than 100m Alexa-enabled devices in our homes.
+Natural Language Processing (NLP) is a major area of artificial intelligence research which in its turn serves as a field of application and interaction of a number of other traditional AI areas.
+One category of research in Artificial Life is concerned with modeling and building so-called adaptive autonomous agents.
+Artificial intelligence (AI) has increasingly gained attention in bioinformatics research and computational molecular biology.
+The techniques may be classified broadly into two categories—the conventional pattern recognition approach and the artificial intelligence (AI) based approach.
+We introduced the topic of feature selection in Section 3.5.4 where we discussed methods for finding input variables which had high mutual information with the output.
+An interesting example of an imputation-like task is known as image inpainting.
+The normalization constant only exists (and hence the pdf is only well defined) if ν > D − 1.
+However there is little consensus on the optimal choice of data preprocessing steps to minimize these effects.
+Use tail -f model_1_train.log to view Caffe's progress.
+You can use the simple intuitive API provided by Keras to create your models.
+A benefit of this uniformity is that once you understand the basic use and syntax of Scikit-Learn for one type of model switching to a new model or algorithm is very straightforward.
+Independent research in 2015 found spaCy to be the fastest in the world.
+TensorFlow is an end-to-end open source platform for machine learning. It’s a comprehensive and flexible ecosystem of tools libraries and other resources that provide workflows with high-level APIs.
+The ability to accurately represent sentences is central to language understanding. We describe a convolutional architecture dubbed the Dynamic Convolutional Neural Network (DCNN) that we adopt for the semantic modelling of sentences.
+I present a mean-field theory for Boltzmann machine learning derived by employing Thouless-Anderson-Palmer free energy formalism to a full extent.
+A Hopfield network (Hopfield 1982) is a fully connected Ising model with a symmetric weight matrix W = W T .
+This study compares the performance of multilayer perceptron neural networks.
+The architecture is a continuous restricted Boltzmann machine with one step of Gibbs sampling to minimise contrastive divergence
+A star search and beam search to quickly find an approximate MAP estimate.
+The idea to construct and solve entirely polyhedral-based relaxations in the context of branch-and-bound for global optimization was first proposed and analyzed by Taw- armalani and Sahinidis.
+The main issue in gradient descent is: how should we set the step size?
+It is common to use greedy search to decide which variables to add.
+CART models are popular for several reasons: they are easy to interpret 2  they can easily handle mixed discrete and continuous inputs.
+Another very popular approach to creating a sparse kernel machine is to use a support vector machine or SVM.
+This can be thought of as a probabilistic decision tree of depth 2 since we recursively partition the space and apply a different expert to each partition.
+We now discuss how to “train” a naive Bayes classifier.
+Note that the cost of these sampling-based Bayesian methods is comparable to the sampling-based random forest method.
+A KNN classifier with K = 1 induces a Voronoi tessellation of the points.
+This procedure is called soft clustering and is identical to the computations performed when using a generative classifier.
+Now consider latent variable models of the form z i → x i ← θ.'
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA Natural Language Processing
+MLA NLP
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP feature selection
+MLS Scikit-Learn
+MLS spaCy
+MLS TensorFlow
+NN Convolutional Neural Network
+NN Boltzmann machine
+NN Hopfield network
+NN perceptron
+OPM beam search
+OPM gradient descent
+OPM greedy search
+SML naive Bayes
+USML KNN
+USML clustering
+USML latent variable models
+---------------------------------------------------
+Created blank 'en' model
+Losses {'ner': 577.3677571617841}
+Losses {'ner': 458.3061257159424}
+Losses {'ner': 371.75690969125696}
+Losses {'ner': 371.3284913990528}
+Losses {'ner': 283.84960819439294}
+Losses {'ner': 248.7849370977818}
+Losses {'ner': 229.62169381908367}
+Losses {'ner': 277.5286677364168}
+Losses {'ner': 190.54156283367288}
+Losses {'ner': 173.46672289890836}
+Losses {'ner': 206.60012513617386}
+Losses {'ner': 177.5089551844083}
+Losses {'ner': 131.74271960730815}
+Losses {'ner': 137.51009899585483}
+Losses {'ner': 110.85898985864266}
+Losses {'ner': 105.65915667477638}
+Losses {'ner': 96.70983595216053}
+Losses {'ner': 78.214896176546}
+Losses {'ner': 119.53831265483828}
+Losses {'ner': 103.57446213220749}
+Losses {'ner': 93.80943849619537}
+Losses {'ner': 72.4956609509559}
+Losses {'ner': 63.43420299677078}
+Losses {'ner': 84.11050126329987}
+Losses {'ner': 61.15411688206892}
+Losses {'ner': 62.55246532622364}
+Losses {'ner': 48.16968069569752}
+Losses {'ner': 49.357040197177945}
+Losses {'ner': 38.26224935603531}
+Losses {'ner': 39.67744975066294}
+Entities in 'Accuracy of Monte Carlo approximation
+We can use methods such as cross validation to empirically choose the best method for our particular problem.
+posterior is a combination of prior and likelihood.
+Precision measures what fraction of our detections are actually positive and recall measures what fraction of the positives we actually detected.
+Amazon does a great job of giving you control over your privacy with Alexa.
+In the 2010s, representation learning and deep neural network-style machine learning methods became widespread in natural language processing
+This book deals with an important topic in distributed AI: the coordination of autonomous agents' activities.
+In this review the theory and main principles of the SVM approach are outlined and successful applications in traditional areas of bioinformatics research.
+We sought to test the hypothesis that a novel 2-dimensional echocardiographic image analysis system using artificial intelligence-learned pattern recognition can rapidly and reproducibly calculate ejection fraction (EF).
+Feature selection in this context is equivalent to selecting a subset of the training examples which can help reduce overfitting and computational cost.
+Nevertheless the method can sometimes give reasonable results if there is not much missing data and it is a useful method for data imputation.
+So assuming the relevant normalization constants are tractable we have an easy way to compute the marginal likelihood.
+It has been established that the chosen preprocessing steps (or "pipeline") may significantly affect fMRI results.
+The caffe "tools/extra/parse_log.sh" file requires a small change to use on OS X.
+The Keras API is modular Pythonic and super easy to use.
+The best way to think about data within Scikit-Learn is in terms of tables of data.
+With spaCy you can easily construct linguistically sophisticated statistical models for a variety of NLP problems.
+TensorFlow provides both high-level and low-level APIs.
+We propose two efficient approximations to standard convolutional neural networks: BinaryWeight-Networks and XNOR-Networks.
+We describe a model based on a Boltzmann machine with third-order connections that can learn how to accumulate information about a shape over several fixations.
+A large number of iterations and oscillations are those of the major concern in solving the economic load dispatch problem using the Hopfield neural network.
+It is found to relax exponentially towards the perceptron of optimal stability using the concept of adaptive learning.
+We introduce the spike and slab Restricted Boltzmann Machine characterized by having both a real-valued vector the slab and a binary variable the spike associated with each unit in the hidden layer.
+Mansinghka et al. 2007 discusses how to fit a DPMM online using particle filtering which is a like a stochastic version of beam search.
+The algorithm is of the branch-and-bound type and differs from previous interactive algorithms in several ways.
+This can be used inside a (stochastic) gradient descent procedure discussed in Section 8.5.2.
+In practice greedy search techniques are used to find reasonable orderings (Kjaerulff 1990) although people have tried other heuristic methods for discrete optimization.
+However CART models also have some disadvantages.
+SVM regression with C = 1/λ chosen by cross validation.
+By contrast in a standard decision tree predictions are made only based on the model in the corresponding leaf.
+If the sample size N is very small which model (naive Bayes or full) is likely to give lower test set error and why?
+The second best method was random forests invented by Breiman.
+The KNN classifier is simple and can work quite well provided it is given a good distance metric and has enough labeled training data.
+We can represent the amount of uncertainty in the cluster assignment by using 1 − max k r ik . Assuming this is small it may be reasonable to compute a hard clustering using the MAP estimate.
+A topic model is a latent variable model for text documents and other forms of discrete data.'
+EVM Accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA natural language processing
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP Feature selection
+EVM likelihood
+OPM beam search
+SML CART
+MLA SVM regression
+EVM cross validation
+SML naive Bayes
+SML random forests
+USML KNN
+USML latent variable model
+---------------------------------------------------
+Created blank 'en' model
+Losses {'ner': 633.105857756531}
+Losses {'ner': 558.9370727222077}
+Losses {'ner': 413.0027045934999}
+Losses {'ner': 367.0599664133937}
+Losses {'ner': 284.69132580159254}
+Losses {'ner': 261.3807763433582}
+Losses {'ner': 207.0561287843291}
+Losses {'ner': 240.15771545426813}
+Losses {'ner': 212.08226778410375}
+Losses {'ner': 145.04298918075588}
+Losses {'ner': 158.15498963729206}
+Losses {'ner': 169.42981622440857}
+Losses {'ner': 142.2475445320171}
+Losses {'ner': 174.94014820299432}
+Losses {'ner': 127.72424442395892}
+Losses {'ner': 147.41705058104745}
+Losses {'ner': 112.13551318866425}
+Losses {'ner': 111.94100666039303}
+Losses {'ner': 79.65407752500282}
+Losses {'ner': 71.3387474465562}
+Losses {'ner': 34.8060657360113}
+Losses {'ner': 70.77101525645719}
+Losses {'ner': 34.87499830161901}
+Losses {'ner': 58.639981184888676}
+Losses {'ner': 53.70239211697562}
+Losses {'ner': 36.89261688775784}
+Losses {'ner': 35.980744793896584}
+Losses {'ner': 58.30623409322584}
+Losses {'ner': 55.360000103607995}
+Losses {'ner': 31.42645081622685}
+Entities in 'where K is chosen based on some tradeoff between accuracy and complexity.
+The principle problem with cross validation is that it is slow since we have to fit the model multiple times.
+It makes more sense to try to approximate the smoothed distribution rather than the backwards likelihood term.
+A precision recall curve is a plot of precision vs recall as we vary the threshold
+When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.
+The ontology is done using NLP technique where semantics relationships defined in WordNet.
+Developing autonomous or driver-assistance systems for complex urban traffic poses new algorithmic and system-architecture challenges.
+Soft computing is make several latent in bioinformatics especially by generating low-cost low precision (approximate) good solutions.
+This paper reports the use of a variety of pattern recognition techniques such as the learning machine and the Fisher discriminant.
+Note that the topic of feature selection and sparsity is currently one of the most active areas of machine learning/ statistics.
+As an example of this procedure in action let us reconsider the imputation problem from Section 4.3.2.3 which had N = 100 10-dimensional data cases with 50% missing data.
+Since all the potentials are locally normalized since they are CPDs there is no need for a global normalization constant so Z = 1.
+The automated analysis pipeline comprises data import normalization replica merging quality diagnostics and data export.
+I followed Caffe's tutorial on LeNet MNIST using GPU and it worked great.
+If you’re comfortable writing code using pure Keras go for it and keep doing it.
+While some Scikit-Learn estimators do handle multiple target values in the form of a two-dimensional [n_samples n_targets] target array we will primarily be working with the common case of a one-dimensional target array.
+The new pretrain command teaches spaCy's CNN model to predict words based on their context.
+Tensorflow’s eager execution allows for immediate iteration along with intuitive debugging.
+Convolutional Neural Networks (CNNs) have been recently employed to solve problems from both the computer vision and medical image analysis fields.
+Inspired by the success of Boltzmann machines based on classical Boltzmann distribution.
+This paper formulates and studies a model of delayed impulsive Hopfield neural networks.
+The perceptron: a probabilistic model for information storage and organization in the brain.
+The restricted Boltzmann machine is a graphical model for binary random variables.
+The first use of a beam search was in the Harpy Speech Recognition System, CMU 1976.
+This paper investigates the influence of the interval subdivision selection rule on the convergence of interval branch-and-bound algorithms for global optimization.
+As it stands WARP loss is still hard to optimize but it can be further approximated by Monte Carlo sampling and then optimized by gradient descent as described.
+An approximate method is to sample DAGs from the posterior and then to compute the fraction of times there is an s → t edge or path for each (s t) pair. The standard way to draw samples is to use the Metropolis Hastings algorithm (Section 24.3) where we use the same local proposal as we did in greedy search (Madigan and Raftery 1994).
+“The HME approach is a promising competitor to CART trees”.
+This combination of the kernel trick plus a modified loss function is known as a support vector machine or SVM.
+The standard heuristic for handling missing inputs in decision trees is to look for a series of ”backup” variables.
+Hence in a naive Bayes classifier we can simply ignore missing features at test time.
+In second place are either random forests or boosted MLPs depending on the preprocessing.
+However the main problem with KNN classifiers is that they do not work well with high dimensional inputs.
+As an example of clustering binary data consider a binarized version of the MNIST handwritten digit dataset.
+If density estimation is our only goal it is worth considering whether it would be more appropriate to learn a latent variable model which can capture correlation between the visible variables via a set of latent common causes.'
+EVM accuracy
+EVM cross validation
+EVM likelihood
+MLA bioinformatics
+MLA pattern recognition
+MLP feature selection
+MLP imputation
+MLP normalized
+MLS Scikit-Learn
+MLS spaCy
+SML CNN
+NN Boltzmann machines
+NN perceptron
+NN restricted Boltzmann machine
+OPM beam search
+OPM gradient descent
+OPM greedy search
+SML naive Bayes
+USML latent variable model
+---------------------------------------------------
+Created blank 'en' model
+Losses {'ner': 640.9990627480264}
+Losses {'ner': 439.69558219202145}
+Losses {'ner': 376.7790211612239}
+Losses {'ner': 439.9606674839097}
+Losses {'ner': 249.66714937038893}
+Losses {'ner': 369.57578708881806}
+Losses {'ner': 337.3888180598565}
+Losses {'ner': 221.40014305379728}
+Losses {'ner': 190.40621034272772}
+Losses {'ner': 138.39243673223987}
+Losses {'ner': 155.3675901637534}
+Losses {'ner': 117.28149049627761}
+Losses {'ner': 160.93595964623978}
+Losses {'ner': 154.84965594240236}
+Losses {'ner': 102.6632523199427}
+Losses {'ner': 79.50974371223083}
+Losses {'ner': 76.8853293121544}
+Losses {'ner': 100.65555139967728}
+Losses {'ner': 50.2245807105945}
+Losses {'ner': 98.09732880872467}
+Losses {'ner': 76.44515237661565}
+Losses {'ner': 76.49585433267636}
+Losses {'ner': 69.75787529925708}
+Losses {'ner': 66.36273504363113}
+Losses {'ner': 38.87538252169886}
+Losses {'ner': 33.45106198934626}
+Losses {'ner': 28.768030716599824}
+Losses {'ner': 46.991965037844075}
+Losses {'ner': 30.537891029783424}
+Losses {'ner': 22.384346624633455}
+Entities in 'In high dimensional problems we might prefer a method that only depends on a subset of the features for reasons of accuracy and interpretability.
+Use cross validation to choose the strength of the 2 regularizer.
+The gradient of the log likelihood can be rewritten as the expected feature vector according to the empirical distribution minus the model’s expectation of the feature vector.
+recall measures what fraction of the positives we actually detected.
+Alexa allows you to ask questions and make requests using just your voice.
+RU-EVAL is a biennial event organized in order to estimate the state of the art in Russian NLP resources methods and toolkits and to compare various methods and principles implemented for Russian.
+An autonomous floor-cleaning robot comprises a self-adjusting cleaning head subsystem that includes a dual-stage brush assembly having counter-rotating asymmetric brushes and an adjacent but independent vacuum assembly.
+It has a wide spectrum of applications such as natural language processing search engines medical diagnosis bioinformatics and more.
+However my focus will not be on these types of pattern-recognition problems.
+To improve computational and statistical performance some feature selection was performed.
+Another interesting example of an imputation-like task is known as collaborative filtering.
+Since all the potentials are locally normalized since they are CPDs there is no need for a global normalization constant so Z = 1.
+The apparatus is formed as a pipeline having a translation and scaling section
+Alternatively Caffe has built in a function called iter_size.
+Using Keras in deep learning allows for easy and fast prototyping as well as running seamlessly on CPU and GPU.
+Many machine learning tasks can be expressed as sequences of more fundamental algorithms and Scikit-Learn makes use of this wherever possible.
+spaCy is an open-source software library for advanced natural language processing.
+TensorFlow is designed for machine learning applications.
+We present a fast fully parameterizable GPU implementation of Convolutional Neural Network variants.
+Paining a Boltzmann machine with hidden units is appropriately treated in information geometry using the information divergence and the technique of alternating minimization.
+In this paper some novel criteria for the global robust stability of a class of interval Hopfield neural networks with constant delays are given.
+Perceptron training is widely applied in the natural language processing community for learning complex structured models.
+Restricted Boltzmann Machine (RBM) has shown great effectiveness in document modeling.
+Since local beam search often ends up on local maxima
+A general branch-and-bound conceptual scheme for global optimization is presented that includes along with previous branch-and-bound approaches also grid-search techniques.
+It is straightforward to derive a gradient descent algorithm to fit this model; however it is rather slow.
+This precludes the kind of local search methods (both greedy search and MCMC sampling) we used to learn DAG structures.
+This weak learner can be any classification or regression algorithm but it is common to use a CART model.
+It is possible to obtain sparse probabilistic multi-class kernel-based classifiers which work as well or better than SVMs.
+A simple decision tree for the data in Figure 1.1.
+So observing a root node separates its children (as in a naive Bayes classifier.
+Random forests or random decision forests are an ensemble learning method for classification, regression
+Choosing K for a KNN classifier is a special case of a more general problem known as model selection.
+After 20 iterations the algorithm has converged on a good clustering.
+In this chapter we are concerned with latent variable models for discrete data such as bit vectors sequences of categorical variables count vectors graph structures relational data etc.'
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA autonomous
+MLA natural language processing
+MLA bioinformatics
+MLA pattern-recognition
+MLP feature selection
+MLP imputation
+OPM normalization
+MLS Caffe
+MLS Keras
+MLS spaCy
+MLS TensorFlow
+NN Convolutional Neural Network
+NN Boltzmann machine
+NN Hopfield neural networks
+NN Perceptron
+NN Restricted Boltzmann Machine
+OPM beam search
+OPM branch-and-bound
+OPM branch-and-bound
+OPM gradient descent
+OPM greedy search
+SML naive Bayes
+SML Random forests
+USML KNN
+USML latent variable models
+---------------------------------------------------
+Created blank 'en' model
+Losses {'ner': 635.4274122483655}
+Losses {'ner': 402.81738818970564}
+Losses {'ner': 346.62567582611507}
+Losses {'ner': 358.36980309768956}
+Losses {'ner': 383.89530825778735}
+Losses {'ner': 333.51572175965435}
+Losses {'ner': 259.8910264962721}
+Losses {'ner': 243.44035056920742}
+Losses {'ner': 224.22816031017607}
+Losses {'ner': 132.634697890293}
+Losses {'ner': 238.93994079101543}
+Losses {'ner': 107.39481788434539}
+Losses {'ner': 117.44297276719591}
+Losses {'ner': 81.85166336100261}
+Losses {'ner': 88.07149720178536}
+Losses {'ner': 77.72907734507973}
+Losses {'ner': 133.27236357078226}
+Losses {'ner': 98.4541794717106}
+Losses {'ner': 74.90463052887979}
+Losses {'ner': 55.44399492862975}
+Losses {'ner': 37.41179682768688}
+Losses {'ner': 46.317319756187366}
+Losses {'ner': 38.27236876956273}
+Losses {'ner': 77.2756576794917}
+Losses {'ner': 57.775258524005196}
+Losses {'ner': 44.067817821248696}
+Losses {'ner': 27.499972572583115}
+Losses {'ner': 38.72941375795905}
+Losses {'ner': 31.012760129876593}
+Losses {'ner': 38.67645081406602}
+Entities in 'In machine learning we often care more about predictive accuracy than in interpreting the parameters of our models.
+In supervised learning we can always use cross validation to select between non-probabilistic models of different complexity but this is not the case with unsupervised learning.
+We call this algorithm stochastic maximum likelihood or SML.
+Alternatively one can quote the precision for a fixed recall level such as the precision of the first K = 10 entities.
+you can ask Alexa a question, such as "What is the weather today in New York?"
+most commonly researched tasks in natural language processing.
+AAFID was the first architecture that proposed the use of autonomous agents for doing intrusion detection.
+Clustering the rows and columns is known as biclustering or coclustering. This is widely used in bioinformatics, where the rows often represent genes and the columns represent conditions.
+Pattern recognition is closely related to artificial intelligence and machine learning
+We can create a challenging feature selection problem. In the experiments below we add 5 extra dummy variables.
+Imputation is the process of replacing missing data with substituted values
+Hence satsifying normalization and local consistency is enough to define a valid distribution for any tree. Hence μ ∈ M(T ) as well.
+To address these challenges we developed an automated software pipeline called Rnnotator.
+Caffe estimates the gradient (more accurately) weights are updated and the process continues.
+The main advantages of Keras are described below.
+Scikit-learn (formerly scikits.learn) is a free software machine learning library for the Python
+spaCy excels at large-scale information extraction tasks.
+TensorFlow is Google Brain's second-generation system
+In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of deep neural networks, most commonly applied to analyzing visual imagery.
+The main purpose of Boltzmann Machine is to optimize the solution of a problem.
+A modified Hopfield neural network model for regularized image restoration is presented.
+Rosenblatt made statements about the perceptron that caused a heated controversy among the fledgling AI community
+A restricted Boltzmann machine (RBM) is a generative stochastic artificial neural network that can learn a probability distribution over its set of inputs. 
+A beam search is most often used to maintain tractability in large systems with insufficient amount of memory to store the entire search tree.
+Branch and bound (BB, B&B, or BnB) is an algorithm design paradigm for discrete and combinatorial optimization problems, as well as mathematical optimization.
+Then sketch how to use projected gradient descent to solve this problem.
+A greedy algorithm is any algorithm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum
+The term Classification And Regression Tree (CART)
+In machine learning, support-vector machines (SVMs, also support-vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis
+The decision tree can be linearized into decision rules
+On the left we show a naive Bayes classifier that has been “unrolled” for D features.
+Random forests are a way of averaging multiple deep decision trees, trained on different parts of the same training set
+Often, the classification accuracy of k-NN can be improved significantly if the distance metric is learned with specialized algorithms
+Clustering is an unsupervised task that may not yield a representation that is useful for prediction.
+Many of the models we have looked at in this book have a simple two-layer architecture of the form z → y for unsupervised latent variable models or x → y for supervised models.'
+EVM accuracy
+EVM cross validation
+EVM likelihood
+MLA Alexa
+MLA natural language processing
+MLA autonomous
+MLA bioinformatics
+MLA Pattern recognition
+MLP feature selection
+MLP Imputation
+MLS Scikit-learn
+MLS spaCy
+MLS TensorFlow
+NN restricted Boltzmann machine
+OPM beam search
+MLP and bound
+OPM gradient descent
+SML Regression Tree
+SML decision tree
+SML naive Bayes
+MLS variable
+---------------------------------------------------
+Created blank 'en' model
+Losses {'ner': 613.4880012693443}
+Losses {'ner': 467.4141664993706}
+Losses {'ner': 529.7742480000196}
+Losses {'ner': 421.7524766160295}
+Losses {'ner': 336.0112576596621}
+Losses {'ner': 339.7768235630097}
+Losses {'ner': 224.58223667342887}
+Losses {'ner': 211.3836864624303}
+Losses {'ner': 183.78727568045568}
+Losses {'ner': 129.27305539718765}
+Losses {'ner': 125.52821237085823}
+Losses {'ner': 86.79931421090443}
+Losses {'ner': 80.59227841145697}
+Losses {'ner': 82.06701672208496}
+Losses {'ner': 75.02238536200092}
+Losses {'ner': 80.37873763092821}
+Losses {'ner': 60.74018222322421}
+Losses {'ner': 48.32080300223661}
+Losses {'ner': 84.43406352448122}
+Losses {'ner': 53.75164587183766}
+Losses {'ner': 55.08312918609784}
+Losses {'ner': 57.402577385446335}
+Losses {'ner': 60.035788368643104}
+Losses {'ner': 50.704538254325456}
+Losses {'ner': 37.92311189327337}
+Losses {'ner': 45.81106942099521}
+Losses {'ner': 31.837212710333485}
+Losses {'ner': 39.63750277900818}
+Losses {'ner': 36.83466619097771}
+Losses {'ner': 33.009664160936204}
+Entities in 'However accuracy is not the only important factor when choosing a method.
+This is likely to be much faster than cross validation especially if we have many hyper-parameters (e.g. as in ARD).
+Nevertheless coordinate descent can be slow. An alternative method is to update all the parameters at once by simply following the gradient of the likelihood.
+The method had a precision of 66% when the recall was set to 10%; while low this is substantially more than rival variable-selection methods such as lasso and elastic net which were only slightly above chance.
+Amazon Alexa allows the user to hear updates on supported sports teams.
+In the early days, many language-processing systems were designed by hand-coding a set of rules
+autonomous car
+In recent years, the size and number of available biological datasets have skyrocketed, enabling bioinformatics researchers to make use of these machine learning systems.
+Pattern recognition algorithms generally aim to provide a reasonable answer for all possible inputs and to perform "most likely" matching of the inputs, taking into account their statistical variation.
+feature selection is the process of selecting a subset of relevant features for use in model construction
+When imputed data is substituted for a data point, it is known as unit imputation
+The goal of normalization is to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values.
+pipelines consist of several steps to train a model
+The feature iter_size is a Caffe function per se but you are correct that it is an option that you set in the solver protobuf file.
+Preprocess input data for Keras
+Scikit-learn plotting capabilities
+spaCy comes with pretrained statistical models and word vectors, and currently supports tokenization for 50+ languages
+TensorFlow is available on 64-bit Linux, macOS, Windows, and mobile computing platforms including Android and iOS
+A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers
+Boltzmann machines have fixed weights, hence there will be no training algorithm as we do not need to update the weights in the network.
+A Hopfield network is a form of recurrent artificial neural network popularized by John Hopfield in 1982
+In the context of neural networks, a perceptron is an artificial neuron using the Heaviside step function as the activation function.
+The standard type of RBM has binary-valued (Boolean/Bernoulli) hidden and visible units
+beam search returns the first solution found.
+Branch-and-bound may also be a base of various heuristics.
+Since the Netflix data is so large (about 100 million observed entries) it is common to use stochastic gradient descent (Section 8.5.2) for this task.
+greedy strategy for the traveling salesman problem
+An Introduction to Recursive Partitioning: Rationale, Application and Characteristics of Classification and Regression Trees, Bagging and Random Forests.
+It is noteworthy that working in a higher-dimensional feature space increases the generalization error of support-vector machines, although given enough samples the algorithm still performs well
+Decision trees can also be seen as generative models of induction rules from empirical data
+naive Bayes classifiers can be trained very efficiently in a supervised learning setting
+Similar to ordinary random forests, the number of randomly selected features to be considered at each node can be specified
+The K-nearest neighbor classification performance can often be significantly improved through (supervised) metric learning
+Cluster analysis is for example used to identify groups of schools or students with similar properties.
+Latent Variable modeling can be a relevant tool for the optimization of analytical techniques'
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA variable-selection
+MLA Alexa
+MLA autonomous
+MLA bioinformatics
+MLA Pattern recognition
+MLP feature selection
+MLP normalization
+MLS Scikit-learn
+MLA spaCy
+MLA neural network
+OPM Boltzmann machines
+NN Hopfield network
+EVM Hopfield
+MLA neural networks
+NN perceptron
+OPM Branch-and-bound
+NN Netflix
+OPM gradient descent
+OPM greedy strategy
+EVM Characteristics
+SML Random Forests
+SML support-vector machines
+SML naive Bayes
+SML random forests
+USML Latent Variable modeling
+---------------------------------------------------

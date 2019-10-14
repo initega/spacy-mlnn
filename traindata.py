@@ -35,7 +35,7 @@ TRAIN_DATA = [
     ),
     (
         "It is common to use K = 5; this is called 5-fold CV. If we set K = N  then we get a method called leave-one out cross validation or LOOCV.",
-        {"entities": [(112, 128, "EVM")]}
+        {"entities": [(112, 128, "EVM"),(49,51,"EVM"),(132,137,"EVM")]}
     ),
     (
         "We can use methods such as cross validation to empirically choose the best method for our particular problem.",
@@ -134,11 +134,7 @@ TRAIN_DATA = [
     ),
     (
         "When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.",
-        {"entities": [(18, 23, "MLA")]}
-    ),
-    (
-        "When you speak to Alexa a recording of what you asked Alexa is sent to Amazon.",
-        {"entities": [(54, 59, "MLA")]}
+        {"entities": [(18, 23, "MLA"),(54, 59, "MLA")]}
     ),
     (
         "Alexa allows you to ask questions and make requests using just your voice.",
@@ -148,6 +144,10 @@ TRAIN_DATA = [
         "you can ask Alexa a question, such as \"What is the weather today in New York?\"",
         {"entities": [(12,17,"MLA")]}
     ),
+    (
+        "Amazon Alexa allows the user to hear updates on supported sports teams.",
+        {"entities": [(7,12,"MLA")]}
+),
 # NLP
     (
         "NLP has been considered a subdiscipline of Artificial Intelligence.",
@@ -155,11 +155,11 @@ TRAIN_DATA = [
     ),
     (
         "Natural Language Processing (NLP) is a major area of artificial intelligence research which in its turn serves as a field of application and interaction of a number of other traditional AI areas.",
-        {"entities": [(29, 32, "MLA")]}
+        {"entities": [(29, 32, "MLA"),(0, 27, "MLA")]}
     ),
     (
-        "Natural Language Processing (NLP) is a major area of artificial intelligence research which in its turn serves as a field of application and interaction of a number of other traditional AI areas.",
-        {"entities": [(0, 27, "MLA")]}
+        "In the 2010s, representation learning and deep neural network-style machine learning methods became widespread in natural language processing",
+        {"entities": [(114,141,"MLA")]}
     ),
     (
         "The ontology is done using NLP technique where semantics relationships defined in WordNet.",

@@ -104,7 +104,7 @@ def main(model=None, new_model_name="machine_learning", output_dir=None,
     print("Entities in '%s'" % test_text)
     for ent in doc.ents:
         print(ent.label_, ent.text)
-    displacy.serve(doc, style="ent")
+    # displacy.serve(doc, style="ent")
 
     # save model to output directory
     if output_dir is not None:
