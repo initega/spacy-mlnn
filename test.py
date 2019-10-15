@@ -56,7 +56,7 @@ from testdata import test_text
     no_train=("True if set", "flag", "nt"),
 )
 def main(model=None, new_model_name="machine_learning", output_dir=None,
-         n_iter=30, no_train=False):
+         n_iter=15, no_train=False):
     # n_iter=int(len(TRAIN_DATA)/4)+1
     """Set up the pipeline and entity recognizer, and train the new entity."""
     random.seed(0)

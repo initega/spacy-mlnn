@@ -60,7 +60,7 @@ TRAIN_DATA = [
 # likelihood
     (
         "Use grid-search over a range of K’s using as an objective function cross-validated likelihood.",
-        {"entities": [(83, 93, "EVM")]}
+        {"entities": [(76,91,"SML"),(83, 93, "EVM")]}
     ),
     (
         "That is they can use likelihood models of the form p(x t:t+l |z t = k d t = l) which generate l correlated observations if the duration in state k is for l time steps.",
@@ -229,7 +229,7 @@ TRAIN_DATA = [
     ),
     (
         "Clustering the rows and columns is known as biclustering or coclustering. This is widely used in bioinformatics, where the rows often represent genes and the columns represent conditions.",
-        {"entities": [(97,111,"MLA")]}
+        {"entities": [(97,111,"MLA"),(0,10,"USML"),(44,56,"USML"),(60,72,"USML")]}
     ),
     (
         "In recent years, the size and number of available biological datasets have skyrocketed, enabling bioinformatics researchers to make use of these machine learning systems.",
@@ -346,15 +346,15 @@ TRAIN_DATA = [
     ),
     (
         "So assuming the relevant normalization constants are tractable we have an easy way to compute the marginal likelihood.",
-        {"entities": [(25, 38, "MLP")]}
+        {"entities": [(25, 38, "MLP"),(107,117,"EVM")]}
     ),
     (
         "Since all the potentials are locally normalized since they are CPDs there is no need for a global normalization constant so Z = 1.",
-        {"entities": [(98, 111, "MLP")]}
+        {"entities": [(98, 111, "MLP"),(37, 47, "MLP")]}
     ),
     (
-        "Since all the potentials are locally normalized since they are CPDs there is no need for a global normalization constant so Z = 1.",
-        {"entities": [(37, 47, "MLP")]}
+        "Normalization is a good technique to use when you do not know the distribution of your data or when you know the distribution is not Gaussian (a bell curve).",
+        {"entities": [(0,13,"MLP")]}
     ),
     (
         "Hence satsifying normalization and local consistency is enough to define a valid distribution for any tree. Hence μ ∈ M(T ) as well.",
@@ -366,12 +366,12 @@ TRAIN_DATA = [
     ),
 # pipeline
     (
-        "This article reviews the evaluation and optimization of the preprocessing steps for bloodoxygenation-level-dependent (BOLD) functional magnetic resonance imaging (fMRI).",
-        {"entities": []}
+        "Before building the pipeline I am splitting the training data into a train and test set so that I can validate the performance of the model.",
+        {"entities": [(20,28,"MLP")]}
     ),
     (
-        "However there is little consensus on the optimal choice of data preprocessing steps to minimize these effects.",
-        {"entities": []}
+        "The next step is to create a pipeline that combines the preprocessor created above with a classifier.",
+        {"entities": [(29,37,"MLP")]}
     ),
     (
         "It has been established that the chosen preprocessing steps (or \"pipeline\") may significantly affect fMRI results.",
@@ -657,7 +657,7 @@ TRAIN_DATA = [
 # restricted boltzmann machine
     (
         "Recent developments have demonstrated the capacity of restricted Boltzmann machines (RBM) to be powerful generative models able to extract useful features from input data or construct deep artificial neural networks.",
-        {"entities": [(54, 82, "NN")]}
+        {"entities": [(54, 82, "NN"),(85,88,"NN")]}
     ),
     (
         "The architecture is a continuous restricted Boltzmann machine with one step of Gibbs sampling to minimise contrastive divergence",
@@ -930,7 +930,7 @@ TRAIN_DATA = [
     ),
     (
         "In second place are either random forests or boosted MLPs depending on the preprocessing.",
-        {"entities": [(27, 40, "SML")]}
+        {"entities": [(27, 40, "SML"),(75,88,"MLP")]}
     ),
     (
         "Random forests or random decision forests are an ensemble learning method for classification, regression",
@@ -938,7 +938,7 @@ TRAIN_DATA = [
     ),
     (
         "Random forests are a way of averaging multiple deep decision trees, trained on different parts of the same training set",
-        {"entities": [(0,14,"SML")]}
+        {"entities": [(0,14,"SML"),(52,66,"SML")]}
     ),
     (
         "Similar to ordinary random forests, the number of randomly selected features to be considered at each node can be specified",
