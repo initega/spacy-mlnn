@@ -495,7 +495,7 @@ TRAIN_DATA = [
     ),
     (
         "The new pretrain command teaches spaCy's CNN model to predict words based on their context.",
-        {"entities": [(33, 38, "MLS")]}
+        {"entities": [(33, 38, "MLS"),(41,44,"NN")]}
     ),
     (
         "spaCy is an open-source software library for advanced natural language processing.",
@@ -731,7 +731,7 @@ TRAIN_DATA = [
     ),
     (
         "A general branch-and-bound conceptual scheme for global optimization is presented that includes along with previous branch-and-bound approaches also grid-search techniques.",
-        {"entities": [(10, 26, "OPM")]}
+        {"entities": [(10, 26, "OPM"),(116,132,"OPM")]}
     ),
     (
         "Branch and bound (BB, B&B, or BnB) is an algorithm design paradigm for discrete and combinatorial optimization problems, as well as mathematical optimization.",
