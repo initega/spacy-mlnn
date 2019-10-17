@@ -1704,4 +1704,232 @@ USML Latent Variable modeling
 
 
 
+ITERATIONS = 150
 
+Iteration: 0
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM CV
+EVM cross-
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP feature selection
+MLP imputation
+MLP normalization
+MLP pipeline
+MLS Caffe
+MLS Scikit-Learn
+MLS spaCy
+NN convolutional neural network
+NN Boltzmann machines
+NN Hopfield networks
+NN perceptron
+SML decision support
+NN restricted Boltzmann machines
+NN RBM
+OPM beam search
+OPM branch and bound
+OPM gradient descent
+OPM greedy search
+SML CART
+SML decision trees
+SML naive Bayes
+SML random forests
+EVM nearest neighbor
+USML KNN
+USML clustering
+USML latent variable models
+---------------------------------------------------
+
+Iteration: 1
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA Natural Language Processing
+MLA NLP
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP feature selection
+MLP imputation
+MLP normalization
+MLP pipeline
+MLS Caffe
+MLS Scikit-Learn
+MLS TensorFlow
+NN Convolutional Neural Network
+NN Hopfield network
+NN perceptron
+OPM beam search
+OPM branch-and-bound
+OPM gradient descent
+OPM greedy search
+SML CART
+SML SVM
+SML decision tree
+SML naive Bayes
+USML KNN
+USML clustering
+USML latent variable models
+---------------------------------------------------
+
+Iteration: 2
+Created blank 'en' model
+EVM Accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA natural language processing
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP imputation
+MLP normalization
+MLS Keras
+MLS Scikit-Learn
+MLS TensorFlow
+NN convolutional neural networks
+USML BinaryWeight-Networks
+NN Boltzmann machine
+NN Hopfield neural network
+NN Restricted Boltzmann Machine
+OPM beam search
+OPM branch-and-bound
+OPM gradient descent
+OPM greedy search
+USML KNN
+USML latent variable model
+---------------------------------------------------
+
+Iteration: 3
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+EVM recall
+MLA NLP
+MLA pattern recognition
+MLS Keras
+MLS Scikit-Learn
+NN CNN
+NN Convolutional Neural Networks
+NN Boltzmann machines
+NN perceptron
+OPM beam search
+OPM branch-and-bound
+OPM gradient descent
+OPM greedy search
+SML decision trees
+SML naive Bayes
+SML random forests
+USML KNN
+USML clustering
+USML latent variable model
+---------------------------------------------------
+
+Iteration: 4
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA NLP
+MLA autonomous
+MLA natural language processing
+MLA bioinformatics
+MLA pattern-recognition
+MLP feature selection
+MLP imputation
+MLP Normalization
+MLP pipeline
+MLS Caffe
+MLS Keras
+MLS Scikit-Learn
+MLS spaCy
+MLA natural language processing
+MLS TensorFlow
+MLA natural language processing
+NN Restricted Boltzmann Machine
+NN RBM
+NN beam
+MLS search
+OPM branch-and-bound
+OPM branch-and-bound
+OPM gradient descent
+OPM greedy search
+SML CART
+SML decision tree
+SML naive Bayes
+SML Random forests
+SML random decision forests
+USML KNN
+USML clustering
+USML latent variable models
+---------------------------------------------------
+
+Iteration: 5
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA natural language processing
+MLA autonomous
+USML Clustering
+EVM rows
+MLA bioinformatics
+MLA Pattern recognition
+MLP feature selection
+MLP Imputation
+MLP normalization
+MLS tree
+MLS Caffe
+MLS Keras
+MLS Scikit-learn
+MLS spaCy
+MLS TensorFlow
+NN convolutional neural network
+NN CNN
+NN Boltzmann Machine
+NN Hopfield neural network
+MLP regularized
+NN perceptron
+NN restricted Boltzmann machine
+NN RBM
+OPM beam search
+OPM Branch and bound
+OPM gradient descent
+OPM Classification And Regression Tree
+SML CART
+SML decision tree
+SML naive Bayes
+SML decision trees
+EVM accuracy
+USML Clustering
+USML latent variable models
+---------------------------------------------------
+
+Iteration: 6
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLP -selection
+MLA Alexa
+MLA bioinformatics
+MLA Pattern recognition
+MLP feature selection
+MLP imputation
