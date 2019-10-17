@@ -55,7 +55,7 @@ This review article aims to provide an overview of the ways in which techniques 
 This paper presents an electromyographic (EMG) pattern recognition method to identify motion commands for the control of a prosthetic arm by evidence accumulation based on artificial intelligence with multiple parameters.
 - pattern recognition
 One common approach to tackling both of these problems is to perform feature selection to remove “irrelevant” features that do not help much with the classification problem.
-- classification
+- feature selection
 The goal of imputation is to infer plausible values for the missing entries.
 - imputation
 The first term is just the normalization constant required to ensure the distribution sums to 1.
