@@ -664,7 +664,7 @@ The main purpose of Boltzmann Machine is to optimize the solution of a problem.
 A modified Hopfield neural network model for regularized image restoration is presented.
 - Hopfield network
 Rosenblatt made statements about the perceptron that caused a heated controversy among the fledgling AI community
-- perceptron, natural language processing
+- perceptron
 A restricted Boltzmann machine (RBM) is a generative stochastic artificial neural network that can learn a probability distribution over its set of inputs. 
 - restricted Boltzmann machines, RBM
 A beam search is most often used to maintain tractability in large systems with insufficient amount of memory to store the entire search tree.
@@ -788,7 +788,7 @@ Since the Netflix data is so large (about 100 million observed entries) it is co
 greedy strategy for the traveling salesman problem
 - greedy strategy
 An Introduction to Recursive Partitioning: Rationale, Application and Characteristics of Classification and Regression Trees, Bagging and Random Forests.
-- Classification and Regression Trees, Random Forests
+- Random Forests
 It is noteworthy that working in a higher-dimensional feature space increases the generalization error of support-vector machines, although given enough samples the algorithm still performs well
 - support vector machine
 Decision trees can also be seen as generative models of induction rules from empirical data
