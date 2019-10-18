@@ -281,7 +281,7 @@ In the 2010s, representation learning and deep neural network-style machine lear
 This book deals with an important topic in distributed AI: the coordination of autonomous agents' activities.
 - autonomous
 In this review the theory and main principles of the SVM approach are outlined and successful applications in traditional areas of bioinformatics research.
-- bioinformatics
+- bioinformatics, svm
 We sought to test the hypothesis that a novel 2-dimensional echocardiographic image analysis system using artificial intelligence-learned pattern recognition can rapidly and reproducibly calculate ejection fraction (EF).
 - pattern recognition
 Feature selection in this context is equivalent to selecting a subset of the training examples which can help reduce overfitting and computational cost.
@@ -299,7 +299,7 @@ The Keras API is modular Pythonic and super easy to use.
 The best way to think about data within Scikit-Learn is in terms of tables of data.
 - Scikit-Learn
 With spaCy you can easily construct linguistically sophisticated statistical models for a variety of NLP problems.
-- spaCy
+- spaCy, NLP
 TensorFlow provides both high-level and low-level APIs.
 - TensorFlow
 We propose two efficient approximations to standard convolutional neural networks: BinaryWeight-Networks and XNOR-Networks.
@@ -323,7 +323,7 @@ In practice greedy search techniques are used to find reasonable orderings (Kjae
 However CART models also have some disadvantages.
 - CART
 SVM regression with C = 1/λ chosen by cross validation.
-- SVM
+- SVM, cross validation
 By contrast in a standard decision tree predictions are made only based on the model in the corresponding leaf.
 - decision tree
 If the sample size N is very small which model (naive Bayes or full) is likely to give lower test set error and why?
@@ -551,7 +551,7 @@ In this paper some novel criteria for the global robust stability of a class of 
 Perceptron training is widely applied in the natural language processing community for learning complex structured models.
 - perceptron, natural language processing
 Restricted Boltzmann Machine (RBM) has shown great effectiveness in document modeling.
-- restricted Boltzmann machines
+- restricted Boltzmann machines, RBM
 Since local beam search often ends up on local maxima
 - beam search
 A general branch-and-bound conceptual scheme for global optimization is presented that includes along with previous branch-and-bound approaches also grid-search techniques.
@@ -569,7 +569,7 @@ A simple decision tree for the data in Figure 1.1.
 So observing a root node separates its children (as in a naive Bayes classifier.
 - naive Bayes
 Random forests or random decision forests are an ensemble learning method for classification, regression
-- random forest
+- random forest, random decision forest
 Choosing K for a KNN classifier is a special case of a more general problem known as model selection.
 - KNN
 After 20 iterations the algorithm has converged on a good clustering.
@@ -636,7 +636,7 @@ most commonly researched tasks in natural language processing.
 AAFID was the first architecture that proposed the use of autonomous agents for doing intrusion detection.
 - autonomous
 Clustering the rows and columns is known as biclustering or coclustering. This is widely used in bioinformatics, where the rows often represent genes and the columns represent conditions.
-- biclustering, coclustering, bioinformatics
+- biclustering, coclustering, bioinformatics, clustering
 Pattern recognition is closely related to artificial intelligence and machine learning
 - pattern recognition
 We can create a challenging feature selection problem. In the experiments below we add 5 extra dummy variables.
@@ -676,17 +676,17 @@ Then sketch how to use projected gradient descent to solve this problem.
 A greedy algorithm is any algorithm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum
 - greedy algorithm
 The term Classification And Regression Tree (CART)
-- CART
+- CART, Classification and Regression Tree
 In machine learning, support-vector machines (SVMs, also support-vector networks) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis
-- support vector machine, SVM
+- support vector machine, SVM, support vector network
 The decision tree can be linearized into decision rules
 - decision tree
 On the left we show a naive Bayes classifier that has been “unrolled” for D features.
 - naive Bayes
 Random forests are a way of averaging multiple deep decision trees, trained on different parts of the same training set
-- random forest
+- random forest, decision tree?
 Often, the classification accuracy of k-NN can be improved significantly if the distance metric is learned with specialized algorithms
-- K-NN
+- K-NN, accuracy
 Clustering is an unsupervised task that may not yield a representation that is useful for prediction.
 - clustering
 Many of the models we have looked at in this book have a simple two-layer architecture of the form z → y for unsupervised latent variable models or x → y for supervised models.'
@@ -1933,3 +1933,280 @@ MLA bioinformatics
 MLA Pattern recognition
 MLP feature selection
 MLP imputation
+MLP normalization
+MLS Caffe
+MLS Scikit-learn
+MLS spaCy
+MLS TensorFlow
+NN perceptron
+NN RBM
+OPM beam search
+OPM Branch-and-bound
+OPM gradient descent
+OPM greedy strategy
+MLA Characteristics
+SML Random Forests
+SML support-vector machines
+SML Decision trees
+SML naive Bayes
+SML random forests
+USML K-nearest
+USML Latent Variable modeling
+---------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ITERATIONS = 400
+
+Iteration: 0
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM CV
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA NLP
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP imputation
+MLP normalization
+MLP pipeline
+MLS Caffe
+MLS Scikit-Learn
+MLS spaCy
+NN Boltzmann machines
+NN perceptron
+NN RBM
+OPM beam search
+NN and bound
+OPM gradient descent
+OPM greedy search
+SML decision trees
+SML naive Bayes
+SML random forests
+SML nearest neighbor
+USML KNN
+USML clustering
+USML latent variable models
+---------------------------------------------------
+
+Iteration: 1
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA Natural Language Processing
+MLA NLP
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP feature selection
+MLP imputation
+MLP normalization
+NN next
+MLP pipeline
+MLS Caffe
+MLS Keras
+MLS Scikit-Learn
+MLS TensorFlow
+NN Convolutional Neural Network
+NN perceptron
+NN restricted Boltzmann machine
+OPM beam search
+OPM branch-and-bound
+OPM gradient descent
+OPM greedy search
+SML CART
+SML SVM
+USML KNN
+USML clustering
+USML latent variable models
+---------------------------------------------------
+
+Iteration: 2
+Created blank 'en' model
+EVM Accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA natural language processing
+MLA autonomous
+MLA bioinformatics
+MLA pattern recognition
+MLP Feature selection
+MLP imputation
+MLP normalization
+EVM likelihood
+MLP preprocessing
+MLP pipeline
+MLS Keras
+MLS Scikit-Learn
+MLS spaCy
+MLA NLP
+MLS TensorFlow
+NN convolutional neural networks
+MLS Networks and
+NN Boltzmann machine
+NN perceptron
+NN Restricted Boltzmann Machine
+OPM beam search
+OPM branch-and-bound
+OPM gradient descent
+OPM greedy search
+SML CART
+EVM cross validation
+SML decision tree
+SML naive Bayes
+SML random forests
+USML KNN
+USML clustering
+USML latent variable model
+---------------------------------------------------
+
+Iteration: 3
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM recall
+EVM recall
+MLA bioinformatics
+MLA pattern recognition
+MLP imputation
+MLP normalization
+MLP pipeline
+MLS Keras
+NN CNN
+NN Convolutional Neural Networks
+NN Boltzmann machines
+NN perceptron
+NN restricted Boltzmann machine
+NN and
+NN -bound
+OPM gradient descent
+OPM greedy search
+OPM SVM
+SML decision trees
+SML naive Bayes
+SML random forests
+USML KNN
+USML clustering
+USML latent variable model
+---------------------------------------------------
+
+
+Iteration: 4
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+MLA Alexa
+MLA NLP
+MLA autonomous
+MLA natural language processing
+MLA bioinformatics
+MLA pattern-recognition
+MLP selection
+MLP imputation
+MLP Normalization
+MLS Caffe
+MLA natural language processing
+MLS TensorFlow
+NN Convolutional Neural Network
+NN Perceptron
+MLA natural language processing
+NN Restricted Boltzmann Machine
+NN RBM
+SML decision tree
+SML naive Bayes
+SML Random forests
+SML random decision forests
+USML KNN
+USML clustering
+USML latent variable models
+---------------------------------------------------
+
+Iteration: 5
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+SML SML
+MLA natural language processing
+MLA autonomous
+USML Clustering
+MLA bioinformatics
+MLA Pattern recognition
+MLP Imputation
+MLP normalization
+MLP pipeline
+MLS Caffe
+MLS Keras
+MLS Scikit-learn
+NN Boltzmann Machine
+NN Hopfield neural network
+OPM Boltzmann machine (
+OPM beam search
+OPM Branch and bound
+OPM gradient descent
+OPM greedy algorithm
+OPM Tree (
+MLA CART
+---------------------------------------------------
+
+Iteration: 6
+Created blank 'en' model
+EVM accuracy
+EVM cross validation
+EVM likelihood
+EVM recall
+EVM -selection
+MLA Alexa
+MLA autonomous
+MLA bioinformatics
+MLA Pattern recognition
+MLP feature selection
+MLP imputation
+MLP normalization
+MLS Caffe
+MLS Keras
+MLS Scikit-learn
+MLS spaCy
+MLS TensorFlow
+NN convolutional neural network
+NN Boltzmann machines
+NN Hopfield network
+NN neural networks
+NN perceptron
+NN RBM
+NN Boolean/Bernoulli
+OPM beam search
+OPM Branch-and-bound
+OPM gradient descent
+OPM greedy strategy
+MLS Trees, Bagging
+SML Random Forests
+MLP feature space
+SML support-vector machines
+SML Decision trees
+SML naive Bayes
+SML random forests
+USML K-nearest neighbor
+USML Latent Variable modeling
+---------------------------------------------------))
