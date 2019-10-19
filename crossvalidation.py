@@ -1,8 +1,8 @@
-import test
+import our_ner_trainer
 import copy
 
-traindata = copy.deepcopy(test.TRAIN_DATA)
-testdata = copy.deepcopy(test.test_text)
+traindata = copy.deepcopy(our_ner_trainer.TRAIN_DATA)
+testdata = copy.deepcopy(our_ner_trainer.test_text)
 
 def getFold(fold):
     return [traindata[i][0] for i in range(len(traindata)) if i%7 == fold]
@@ -18,9 +18,9 @@ def concatByNewLine(strings):
             res += "\n" + s
     return res
 
-for i in range(7):
-    test.test_text = concatByNewLine(getFold(i))
-    test.TRAIN_DATA = getNotFold(i)
+for i in range(1):
+    our_ner_trainer.test_text = concatByNewLine(getFold(i))
+    our_ner_trainer.TRAIN_DATA = getNotFold(i)
 
-    test.main()
+    our_ner_trainer.main()
     print("---------------------------------------------------")
