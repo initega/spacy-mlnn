@@ -1,6 +1,0 @@
-
-The avatar searches available information and makes recommendations to the user based on data.
-
-Learning from GPS history data for collaborative recommendation.
-
-A learning method was employed for Web pages recommendations, and book recommendations in Mooney. 
