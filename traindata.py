@@ -60,7 +60,7 @@ TRAIN_DATA = [
 # likelihood
     (
         "Use grid-search over a range of K’s using as an objective function cross-validated likelihood.",
-        {"entities": [(76,91,"SML"),(83, 93, "EVM")]}
+        {"entities": [(76,91,"SML"),(92, 102, "EVM")]}
     ),
     (
         "That is they can use likelihood models of the form p(x t:t+l |z t = k d t = l) which generate l correlated observations if the duration in state k is for l time steps.",
