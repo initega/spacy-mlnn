@@ -37,7 +37,7 @@ Those three examples could be classified the next way:
 - ML Software: **Keras**, SkLearn, Tensorflow
 
 ## Name Entity Recognition Example
-![cosas](/home/initega/Pictures/Screenshots/Screenshot-2019-12-11.png "hello d")
+![NER example](/images/Screenshot-2019-12-11.png "NER example")
 
 # Aproach
 
@@ -129,9 +129,8 @@ of the model.  This count is not considered inside our definition of accuracy,
 however, it is important to consider it while evaluating the general performance
 of the model.
 
-[image1]: "accuracy"
-[image2]: "false-positives"
-[image3]: "false-positives-2"
+![image1]("/images/results-foronda.png" "Results test")
+![image2]("/images/falsepositivesOvrBl.png" "False positives unified")
 
 ### Massive model learning loops
 We tried to train a model using always the same input text.
@@ -173,6 +172,8 @@ converge.  It is also worth to mention that, in general, multi-word keywords are
 less likely to be found that single-word keywords.  What’s more, this model is
 able to find half of the keywords used, generally, pretty easily, but it has
 problems with the other half.
+
+![cv results]("/images/cv-iters.png" "cv")
 
 # Conclusions
 ## Attempts to overfit the model
