@@ -129,8 +129,8 @@ of the model.  This count is not considered inside our definition of accuracy,
 however, it is important to consider it while evaluating the general performance
 of the model.
 
-![image1]("/images/results-foronda.png" "Results test")
-![image2]("/images/falsepositivesOvrBl.png" "False positives unified")
+![image1](/images/results-foronda.png "Results test")
+![image2](/images/falsepositivesOvrBl.png "False positives unified")
 
 ### Massive model learning loops
 We tried to train a model using always the same input text.
@@ -173,7 +173,7 @@ less likely to be found that single-word keywords.  What’s more, this model is
 able to find half of the keywords used, generally, pretty easily, but it has
 problems with the other half.
 
-![cv results]("/images/cv-iters.png" "cv")
+![cv results](/images/cv-iters.png "cv")
 
 # Conclusions
 ## Attempts to overfit the model
