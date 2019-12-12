@@ -1,0 +1,167 @@
+Machine learning entity recognition with Spacy
+                 Presenter: Iñigo Ortega
+
+github.com/initega/spacy-mlnn
+
+1) Define a set of ML entities comprising at least 8 entities.
+2) Create one or more NER models using Spacy.
+3) Design a validation method to evaluate the accuracy of the method or methods
+for labeling the document.
+
+The Goal
+
+What are (Named) Entities?
+
+A "real-world object" with an assigned name
+
+A set of keywords
+
+What are keywords?
+
+Keyword examples:
+• Apple
+• Knife
+• Microwave
+
+Named Entities:
+• Fruit: Apple, Pineapple, Orange.
+• Clutery: Knife, Spoon, Fork.
+• Electrical appliance: Microwave, Freezer, Dishwasher.
+
+Machine Learning related keywords
+
+Keyword examples:
+• Decision Tree
+• Clustering
+• Keras
+
+Named Entities:
+• Supervised ML algorithm: Decision Tree, Random Forest, SVM
+• Unsupervised ML algorithm: Clustering, KNN, Event detection
+• ML Software: Keras, SkLearn, Tensorflow
+
+Name Entity Recognition Example
+
+@images/Screenshot-2019-12-11.png
+
+Aproach
+
+Named Entities Used
+
+Used Entities:
+• SML: "Supervised Machine Learning Algorithms"
+• USML: "Unsupervised Machine Learning Algorithms"
+• MLS: "Machine Learning Software"
+• NN: "Neural Networks"
+• EVM: "Evatuation Methods" 
+• OPM: "Optimization Methods" 
+• MLP: "Machine Learning Preprocessing" 
+• MLA: "Machine Learning Applications" 
+
+1) Define a set of ML entities comprising at least 8 entities.
+✔✔✔✔✔✔
+
+Data example
+
+[
+    (
+        "We introduced a multilayer perceptron neural network (MLPNN) based
+        classification model as a diagnostic decision support mechanism in the
+        epilepsy treatment.",
+        {"entities": [(27, 37, "NN")]}
+    )
+    ,
+    ...
+    ,
+    (
+        "The main issue in gradient descent is: how should we set the step
+        size?",
+        {"entities": [(18, 34, "OPM")]}
+    )
+]
+
+Data components:
+• The text.
+• The "entities" label.
+• Entity locations with entity type.
+(
+    "...",
+    {"entities": [(ORIGIN, END, LABEL), ...]}
+)
+
+The algorithm
+
+1. Set the pipeline
+2. Insert the labels (OPM, NN...)
+3. Add the training data
+4. Train (many iterations/epochs)
+5. Time to test the model.
+
+The main function
+
+    def ner(model=None, new_model_name="machine_learning", output_dir=None,
+            n_iter=30, no_train=False, train=TRAIN_DATA, test=test_text,
+            display=False, verbose=True):
+
+2) Create one or more NER models using Spacy.
+✔✔✔✔✔✔
+
+Evaluating accuracy
+
+Cross Validation
+
+Overfitting intentional attemps
+
+Trying to overfit the model
+
+Testing the model with a piece of text
+
+Results
+
+@images/results-foronda.png
+
+@images/falsepositivesOvrBl.png
+
+Massive number of model training loops
+
+Results
+
+No change
+
+Cross Validation
+
+7-fold Cross Validation
+
+Why?
+
+245 data entries
+7 for each keyword.
+245/7 = 35 keywords
+
+@images/cv-columns.png
+
+@images/cv-bad.png
+
+@images/cv-iter1.png
+
+@images/cv-iter2.png
+
+@images/cv-iter3.png
+
+3) Design a validation method to evaluate the accuracy of the method or methods
+for labeling the document.
+✔✔✔✔✔✔
+
+Results
+
+@images/cv-iters.png
+
+Conclusions
+
+Attempts to overfit the model
+
+Catastrophic Forgetting
+
+Cross Validation
+
+Questions?
